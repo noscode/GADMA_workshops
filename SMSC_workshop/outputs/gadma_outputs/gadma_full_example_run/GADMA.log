@@ -1,0 +1,411 @@
+Data reading
+Number of populations: 1
+Projections: [10]
+Population labels: ['NN']
+Outgroup: False
+[92m--Successful data reading--[0m
+
+[92m--Successful arguments parsing--[0m
+
+Bootstrap data reading
+Number of files found: 20
+[92m--Successful bootstrap data reading--[0m
+
+Parameters of launch are saved in output directory: /home/enoskova/Workspace/GADMA_workshop/outputs/gadma_outputs/gadma_full_example_run/params_file
+All output is saved in output directory: /home/enoskova/Workspace/GADMA_workshop/outputs/gadma_outputs/gadma_full_example_run/GADMA.log
+
+[94m--Start pipeline--[0m
+Run launch number 2
+Run launch number 3
+Run launch number 1
+Run launch number 4
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mRun 4: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mRun 3: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mRun 2: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1: failed to generate code due to the following exception: momentsLD: 1763.3216117154127, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 2: failed to generate code due to the following exception: momentsLD: 1778.242539779669, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 3: failed to generate code due to the following exception: momentsLD: 1774.6795290116663, 1.0; momi2: Linear size function is  not supported[0m
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.0013939] N_new [0.00195148]
+relative change 0.40001806809392576
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00195148] N_new [0.00250906]
+relative change 0.2857235040105848
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00077675] N_new [0.00099785]
+relative change 0.2846469284185966
+
+[000:01:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-415.93	 [Nanc = 667] [ [ 29391.619(t1), [10637.532(nu11)], [Lin(dyn11)] ],	[ 80.034(t2), [13.62(nu21)], [Sud(dyn21)] ] ]	c	(theta =  96578.74)
+Run 4	-440.82	 [Nanc = 1763] [ [ 11.481(t1), [3.809(nu11)], [Sud(dyn11)] ] ]	(theta =  255372.83)
+Run 2	-440.98	 [Nanc = 1764] [ [ 0.027(t1), [176411.191(nu11)], [Sud(dyn11)] ],	[ 12.578(t2), [4.169(nu21)], [Sud(dyn21)] ] ]	c	(theta =  255425.20)
+Run 3	-452.64	 [Nanc = 1787] [ [ 999.217(t1), [2.209(nu11)], [Lin(dyn11)] ],	[ 1.48(t2), [40482.313(nu21)], [Sud(dyn21)] ] ]	m	(theta =  258882.23)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 667.0277710605278, 1.0; momi2: Linear size function is  not supported[0m
+
+You can find the picture of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-438.66	503.15 (eps=1.0e-05)	 [Nanc = 1763] [ [ 4.881(t1), [0.176(nu11)], [Exp(dyn11)] ] ]	(theta =  255310.77)
+Run 2	-467.06	844.91 (eps=1.0e-05)	 [Nanc = 1778] [ [ 161.103(t1), [49.991(nu11)], [Sud(dyn11)] ] ]	(theta =  257471.17)
+Run 3	-454.75	900.69 (eps=1.0e-05)	 [Nanc = 1774] [ [ 1193.008(t1), [6.485(nu11)], [Lin(dyn11)] ] ]	(theta =  256955.28)
+Run 3	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 1	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 4	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 2	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00123544] N_new [0.00221199]
+relative change 0.790445291998704
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00221199] N_new [0.00318854]
+relative change 0.441479723246007
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00318854] N_new [0.00416509]
+relative change 0.3062684241245224
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 1763.3216117154127, 1.0[0m
+
+You can find the picture of the best model in the output directory.
+
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00123544] N_new [0.00195482]
+relative change 0.582278849621368
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00195482] N_new [0.00267419]
+relative change 0.368000147231131
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00267419] N_new [0.00339356]
+relative change 0.26900592662652334
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00123544] N_new [0.00172037]
+relative change 0.3925089004390707
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00172037] N_new [0.00220529]
+relative change 0.2818717354806918
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00123544] N_new [0.00162017]
+relative change 0.3114060043225225
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 4: failed to generate code due to the following exception: momentsLD: 1763.7502320737422, 1.0[0m
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00183081] N_new [0.00236509]
+relative change 0.291825506969368
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.0019035] N_new [0.00243778]
+relative change 0.2806808053316224
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.0001] N_new [0.00019154]
+relative change 0.9154218509487037
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00019154] N_new [0.00028308]
+relative change 0.4779217959194196
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00028308] N_new [0.00037463]
+relative change 0.32337421184190823
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00109368] N_new [0.00179867]
+relative change 0.6446045256755034
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00179867] N_new [0.00250366]
+relative change 0.39195108344405105
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00250366] N_new [0.00320866]
+relative change 0.28158394939731757
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1: failed to generate code due to the following exception: momentsLD: 666.3788749626584, 1.0; momi2: Linear size function is  not supported[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1: failed to generate code due to the following exception: momentsLD: 666.3788749626584, 1.0; momi2: Linear size function is  not supported[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 1
+Run launch number 5
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 5: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 4: failed to generate code due to the following exception: momentsLD: 1764.3118586302103, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 4: failed to generate code due to the following exception: momentsLD: 1764.3118586302103, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 4
+Run launch number 6
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 6: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 2: failed to generate code due to the following exception: momentsLD: 1765.2692025738504, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 2: failed to generate code due to the following exception: momentsLD: 1765.2692025738504, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 2
+Run launch number 7
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 7: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+
+[000:02:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-415.85	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.08	 [Nanc = 1767] [ [ 36.675(t1), [1.733(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.328(nu21)], [Sud(dyn21)] ] ]	m	(theta =  255921.26)
+Run 4	-440.79	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 6	-445.66	 [Nanc = 1768] [ [ 157.97(t1), [9.595(nu11)], [Exp(dyn11)] ] ]	m	(theta =  256130.97)
+Run 5	-447.84	 [Nanc = 1770] [ [ 198.493(t1), [12.556(nu11)], [Exp(dyn11)] ] ]	m	(theta =  256292.35)
+Run 7	-911.08	 [Nanc = 33149] [ [ 563195.274(t1), [375.564(nu11)], [Lin(dyn11)] ] ]	mm	(theta =  4799725.96)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 666.3788749626584, 1.0; momi2: Linear size function is  not supported[0m
+
+You can find the picture of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-438.66	503.15 (eps=1.0e-05)	 [Nanc = 1763] [ [ 4.881(t1), [0.176(nu11)], [Exp(dyn11)] ] ]	(theta =  255310.77)
+Run 4	-440.82	804.75 (eps=1.0e-05)	 [Nanc = 1763] [ [ 11.481(t1), [3.809(nu11)], [Sud(dyn11)] ] ]	(theta =  255372.83)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	(theta =  255454.15)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	(theta =  255592.76)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	(theta =  96484.78)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 2	-467.06	844.91 (eps=1.0e-05)	 [Nanc = 1778] [ [ 161.103(t1), [49.991(nu11)], [Sud(dyn11)] ] ]	(theta =  257471.17)
+Run 3	-454.75	900.69 (eps=1.0e-05)	 [Nanc = 1774] [ [ 1193.008(t1), [6.485(nu11)], [Lin(dyn11)] ] ]	(theta =  256955.28)
+Run 3	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 1	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 4	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 2	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 5	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 6	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 7	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 1763.3216117154127, 1.0[0m
+
+You can find the picture of the best model in the output directory.
+
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 5: failed to generate code due to the following exception: momentsLD: 1769.7884459691797, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 6: failed to generate code due to the following exception: momentsLD: 1768.4468142725855, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 7: failed to generate code due to the following exception: momentsLD: 1790.888805793618, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 3: failed to generate code due to the following exception: momentsLD: 1767.130972465984, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 3: failed to generate code due to the following exception: momentsLD: 1767.130972465984, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 3
+Run launch number 8
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 8: failed to generate code due to the following exception: momentsLD: 1294.375012853394, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 6: failed to generate code due to the following exception: momentsLD: 1768.4321794908403, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 6: failed to generate code due to the following exception: momentsLD: 1768.4321794908403, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 6
+
+[000:03:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-415.85	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.03	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255862.33)
+Run 4	-440.79	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 6	-445.66	 [Nanc = 1768] [ [ 157.741(t1), [9.593(nu11)], [Exp(dyn11)] ] ]	(theta =  256052.85)
+Run 8	-445.83	 [Nanc = 1771] [ [ 891.867(t1), [1.466(nu11)], [Lin(dyn11)] ] ]	m	(theta =  256433.30)
+Run 5	-447.84	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	(theta =  256247.10)
+Run 7	-458.88	 [Nanc = 1774] [ [ 201.438(t1), [3616.198(nu11)], [Exp(dyn11)] ],	[ 116.86(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	m	(theta =  256869.69)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 666.3788749626584, 1.0; momi2: Linear size function is  not supported[0m
+
+You can find the picture of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-438.66	503.15 (eps=1.0e-05)	 [Nanc = 1763] [ [ 4.881(t1), [0.176(nu11)], [Exp(dyn11)] ] ]	(theta =  255310.77)
+Run 7	-468.88	577.45 (eps=1.0e-05)	 [Nanc = 1790] [ [ 524.302(t1), [37.857(nu11)], [Exp(dyn11)] ] ]	(theta =  259302.21)
+Run 4	-440.82	804.75 (eps=1.0e-05)	 [Nanc = 1763] [ [ 11.481(t1), [3.809(nu11)], [Sud(dyn11)] ] ]	(theta =  255372.83)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	(theta =  255454.15)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	(theta =  255592.76)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	(theta =  96484.78)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.03	837.28 (eps=1.0e-05)	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	(theta =  255862.33)
+Run 3	-440.03	837.28 (eps=1.0e-05)	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255862.33)
+Run 2	-467.06	844.91 (eps=1.0e-05)	 [Nanc = 1778] [ [ 161.103(t1), [49.991(nu11)], [Sud(dyn11)] ] ]	(theta =  257471.17)
+Run 6	-445.74	872.74 (eps=1.0e-05)	 [Nanc = 1768] [ [ 78.87(t1), [130.245(nu11)], [Exp(dyn11)] ],	[ 78.87(t2), [9.592(nu21)], [Exp(dyn21)] ] ]	(theta =  256050.73)
+Run 6	-445.74	872.74 (eps=1.0e-05)	 [Nanc = 1768] [ [ 78.87(t1), [130.245(nu11)], [Exp(dyn11)] ],	[ 78.87(t2), [9.592(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256050.73)
+Run 6	-445.66	874.11 (eps=1.0e-05)	 [Nanc = 1768] [ [ 157.741(t1), [9.593(nu11)], [Exp(dyn11)] ] ]	(theta =  256052.85)
+Run 5	-447.84	875.63 (eps=1.0e-05)	 [Nanc = 1769] [ [ 198.327(t1), [12.554(nu11)], [Exp(dyn11)] ] ]	(theta =  256247.10)
+Run 5	-447.84	875.64 (eps=1.0e-05)	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	(theta =  256247.10)
+Run 3	-454.75	900.69 (eps=1.0e-05)	 [Nanc = 1774] [ [ 1193.008(t1), [6.485(nu11)], [Lin(dyn11)] ] ]	(theta =  256955.28)
+Run 3	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 1	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 4	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 2	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 5	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 6	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 7	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 8	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 1763.3216117154127, 1.0[0m
+
+You can find the picture of the best model in the output directory.
+
+[93mRun 5: failed to generate code due to the following exception: momentsLD: 1769.7884459692034, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 5: failed to generate code due to the following exception: momentsLD: 1769.7884459692034, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 5
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 7: failed to generate code due to the following exception: momentsLD: 1774.053561598017, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 7: failed to generate code due to the following exception: momentsLD: 1774.053561598017, 1.0[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 7
+
+[000:04:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-415.85	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.03	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255862.33)
+Run 4	-440.79	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 8	-441.87	 [Nanc = 1770] [ [ 659.801(t1), [0.177(nu11)], [Lin(dyn11)] ] ]	m	(theta =  256375.50)
+Run 6	-445.66	 [Nanc = 1768] [ [ 157.741(t1), [9.593(nu11)], [Exp(dyn11)] ] ]	(theta =  256052.85)
+Run 5	-447.84	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256247.10)
+Run 7	-458.88	 [Nanc = 1774] [ [ 220.92(t1), [3365.985(nu11)], [Exp(dyn11)] ],	[ 116.857(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	f	(theta =  256864.64)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 666.3788749626584, 1.0; momi2: Linear size function is  not supported[0m
+
+You can find the picture of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-438.66	503.15 (eps=1.0e-05)	 [Nanc = 1763] [ [ 4.881(t1), [0.176(nu11)], [Exp(dyn11)] ] ]	(theta =  255310.77)
+Run 7	-468.88	577.45 (eps=1.0e-05)	 [Nanc = 1790] [ [ 524.302(t1), [37.857(nu11)], [Exp(dyn11)] ] ]	(theta =  259302.21)
+Run 4	-440.82	804.75 (eps=1.0e-05)	 [Nanc = 1763] [ [ 11.481(t1), [3.809(nu11)], [Sud(dyn11)] ] ]	(theta =  255372.83)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	(theta =  255454.15)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	(theta =  255592.76)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	(theta =  96484.78)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.03	837.28 (eps=1.0e-05)	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	(theta =  255862.33)
+Run 3	-440.03	837.28 (eps=1.0e-05)	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255862.33)
+Run 2	-467.06	844.91 (eps=1.0e-05)	 [Nanc = 1778] [ [ 161.103(t1), [49.991(nu11)], [Sud(dyn11)] ] ]	(theta =  257471.17)
+Run 6	-445.74	872.74 (eps=1.0e-05)	 [Nanc = 1768] [ [ 78.87(t1), [130.245(nu11)], [Exp(dyn11)] ],	[ 78.87(t2), [9.592(nu21)], [Exp(dyn21)] ] ]	(theta =  256050.73)
+Run 6	-445.74	872.74 (eps=1.0e-05)	 [Nanc = 1768] [ [ 78.87(t1), [130.245(nu11)], [Exp(dyn11)] ],	[ 78.87(t2), [9.592(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256050.73)
+Run 7	-458.88	873.14 (eps=1.0e-05)	 [Nanc = 1774] [ [ 220.92(t1), [3365.985(nu11)], [Exp(dyn11)] ],	[ 116.857(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	(theta =  256864.64)
+Run 7	-458.88	873.14 (eps=1.0e-05)	 [Nanc = 1774] [ [ 220.92(t1), [3365.985(nu11)], [Exp(dyn11)] ],	[ 116.857(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	f	(theta =  256864.64)
+Run 6	-445.66	874.11 (eps=1.0e-05)	 [Nanc = 1768] [ [ 157.741(t1), [9.593(nu11)], [Exp(dyn11)] ] ]	(theta =  256052.85)
+Run 5	-447.84	875.63 (eps=1.0e-05)	 [Nanc = 1769] [ [ 198.327(t1), [12.554(nu11)], [Exp(dyn11)] ] ]	(theta =  256247.10)
+Run 5	-447.84	875.64 (eps=1.0e-05)	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	(theta =  256247.10)
+Run 5	-447.84	875.64 (eps=1.0e-05)	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256247.10)
+Run 3	-454.75	900.69 (eps=1.0e-05)	 [Nanc = 1774] [ [ 1193.008(t1), [6.485(nu11)], [Lin(dyn11)] ] ]	(theta =  256955.28)
+Run 3	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 1	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 4	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 2	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 5	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 6	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 7	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 8	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 1763.3216117154127, 1.0[0m
+
+You can find the picture of the best model in the output directory.
+
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 8: failed to generate code due to the following exception: momentsLD: 1768.2163204144156, 1.0; momi2: Linear size function is  not supported[0m
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00186697] N_new [0.00236392]
+relative change 0.2661782406200923
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 8: failed to generate code due to the following exception: momentsLD: 1767.265995066196, 1.0; momi2: Linear size function is  not supported[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 8: failed to generate code due to the following exception: momentsLD: 1767.265995066196, 1.0; momi2: Linear size function is  not supported[0m
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+Finish genetic algorithm number 8
+
+[000:04:50]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-415.85	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.03	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255862.33)
+Run 4	-440.79	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 8	-441.75	 [Nanc = 1768] [ [ 655.469(t1), [0.177(nu11)], [Lin(dyn11)] ] ]	(theta =  256019.47)
+Run 6	-445.66	 [Nanc = 1768] [ [ 157.741(t1), [9.593(nu11)], [Exp(dyn11)] ] ]	(theta =  256052.85)
+Run 5	-447.84	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256247.10)
+Run 7	-458.88	 [Nanc = 1774] [ [ 220.92(t1), [3365.985(nu11)], [Exp(dyn11)] ],	[ 116.857(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	f	(theta =  256864.64)
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 666.3788749626584, 1.0; momi2: Linear size function is  not supported[0m
+
+You can find the picture of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-438.66	503.15 (eps=1.0e-05)	 [Nanc = 1763] [ [ 4.881(t1), [0.176(nu11)], [Exp(dyn11)] ] ]	(theta =  255310.77)
+Run 7	-468.88	577.45 (eps=1.0e-05)	 [Nanc = 1790] [ [ 524.302(t1), [37.857(nu11)], [Exp(dyn11)] ] ]	(theta =  259302.21)
+Run 4	-440.82	804.75 (eps=1.0e-05)	 [Nanc = 1763] [ [ 11.481(t1), [3.809(nu11)], [Sud(dyn11)] ] ]	(theta =  255372.83)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	(theta =  255454.15)
+Run 4	-440.79	811.16 (eps=1.0e-05)	 [Nanc = 1764] [ [ 5.8(t1), [3.81(nu11)], [Sud(dyn11)] ],	[ 5.699(t2), [3.81(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255454.15)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	(theta =  255592.76)
+Run 2	-440.95	811.41 (eps=1.0e-05)	 [Nanc = 1765] [ [ 0.025(t1), [3.36(nu11)], [Sud(dyn11)] ],	[ 12.586(t2), [4.171(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255592.76)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	(theta =  96484.78)
+Run 1	-415.85	812.00 (eps=1.0e-05)	 [Nanc = 666] [ [ 29363.027(t1), [10637.816(nu11)], [Lin(dyn11)] ],	[ 79.835(t2), [13.607(nu21)], [Sud(dyn21)] ] ]	f	(theta =  96484.78)
+Run 3	-440.03	837.28 (eps=1.0e-05)	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	(theta =  255862.33)
+Run 3	-440.03	837.28 (eps=1.0e-05)	 [Nanc = 1767] [ [ 36.666(t1), [1.734(nu11)], [Exp(dyn11)] ],	[ 7.64e-10(t2), [843.134(nu21)], [Sud(dyn21)] ] ]	f	(theta =  255862.33)
+Run 2	-467.06	844.91 (eps=1.0e-05)	 [Nanc = 1778] [ [ 161.103(t1), [49.991(nu11)], [Sud(dyn11)] ] ]	(theta =  257471.17)
+Run 6	-445.74	872.74 (eps=1.0e-05)	 [Nanc = 1768] [ [ 78.87(t1), [130.245(nu11)], [Exp(dyn11)] ],	[ 78.87(t2), [9.592(nu21)], [Exp(dyn21)] ] ]	(theta =  256050.73)
+Run 6	-445.74	872.74 (eps=1.0e-05)	 [Nanc = 1768] [ [ 78.87(t1), [130.245(nu11)], [Exp(dyn11)] ],	[ 78.87(t2), [9.592(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256050.73)
+Run 7	-458.88	873.14 (eps=1.0e-05)	 [Nanc = 1774] [ [ 220.92(t1), [3365.985(nu11)], [Exp(dyn11)] ],	[ 116.857(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	(theta =  256864.64)
+Run 7	-458.88	873.14 (eps=1.0e-05)	 [Nanc = 1774] [ [ 220.92(t1), [3365.985(nu11)], [Exp(dyn11)] ],	[ 116.857(t2), [36.589(nu21)], [Sud(dyn21)] ] ]	f	(theta =  256864.64)
+Run 6	-445.66	874.11 (eps=1.0e-05)	 [Nanc = 1768] [ [ 157.741(t1), [9.593(nu11)], [Exp(dyn11)] ] ]	(theta =  256052.85)
+Run 8	-441.78	875.24 (eps=1.0e-05)	 [Nanc = 1767] [ [ 261.356(t1), [883.721(nu11)], [Exp(dyn11)] ],	[ 327.558(t2), [0.177(nu21)], [Lin(dyn21)] ] ]	(theta =  255881.88)
+Run 8	-441.78	875.24 (eps=1.0e-05)	 [Nanc = 1767] [ [ 261.356(t1), [883.721(nu11)], [Exp(dyn11)] ],	[ 327.558(t2), [0.177(nu21)], [Lin(dyn21)] ] ]	f	(theta =  255881.88)
+Run 5	-447.84	875.63 (eps=1.0e-05)	 [Nanc = 1769] [ [ 198.327(t1), [12.554(nu11)], [Exp(dyn11)] ] ]	(theta =  256247.10)
+Run 5	-447.84	875.64 (eps=1.0e-05)	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	(theta =  256247.10)
+Run 5	-447.84	875.64 (eps=1.0e-05)	 [Nanc = 1769] [ [ 0.046(t1), [1769.788(nu11)], [Exp(dyn11)] ],	[ 198.327(t2), [12.554(nu21)], [Exp(dyn21)] ] ]	f	(theta =  256247.10)
+Run 8	-441.75	876.53 (eps=1.0e-05)	 [Nanc = 1768] [ [ 655.469(t1), [0.177(nu11)], [Lin(dyn11)] ] ]	(theta =  256019.47)
+Run 3	-454.75	900.69 (eps=1.0e-05)	 [Nanc = 1774] [ [ 1193.008(t1), [6.485(nu11)], [Lin(dyn11)] ] ]	(theta =  256955.28)
+Run 3	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 1	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 4	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 2	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 5	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 6	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 7	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+Run 8	-18821.88	37643.75 (eps=1.0e-05)	 [Nanc = 1294] [  ]	(theta =  187412.14)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+[93mUserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.[0m (/home/enoskova/.local/lib/python3.8/site-packages/moments/Plotting.py:192)
+[93mRun 1 warning: failed to generate  some code due to the following exception: momentsLD: 1763.3216117154127, 1.0[0m
+
+You can find the picture of the best model in the output directory.
+
+
+--Finish pipeline--
+
+Thank you for using GADMA!
+
+In case of any questions or problems, please contact: ekaterina.e.noskova@gmail.com
+
