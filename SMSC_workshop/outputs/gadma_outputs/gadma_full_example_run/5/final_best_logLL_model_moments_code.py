@@ -12,10 +12,10 @@ def model_func(params, ns):
 	fs.integrate(tf=t2, Npop=lambda t: [nu1_func(t)], dt_fac=0.01)
 	return fs
 
-data = moments.Spectrum.from_file('/home/enoskova/Workspace/GADMA_workshop/outputs/easySFS_output/dadi/NN-10.sfs')
+data = moments.Spectrum.from_file('/home/jupyter-user_workshop/GADMA_workshops/SMSC_workshop/outputs/easySFS_output/dadi/NN-10.sfs')
 ns = data.sample_sizes
 
-p0 = [1.8669482331939058e-06, 1.0, 0.008004460665105819, 0.0070935949912832915]
+p0 = [0.0033020862130708835, 0.07665826961712677, 0.003302086213056464, 0.005876490300692101]
 lower_bound = [1e-15, 0.0001, 1e-15, 0.0001]
 upper_bound = [5.0, 100.0, 5.0, 100.0]
 model = model_func(p0, ns)
@@ -25,7 +25,7 @@ print('Model log likelihood (LL(model, data)): {0}'.format(ll_model))
 theta = moments.Inference.optimal_sfs_scaling(model, data)
 print('Optimal value of theta: {0}'.format(theta))
 
-Nanc = 1769.7884459692034
+Nanc = 1744.9874524496454
 mu = 1.554e-08
 L = 2329306282
 theta0 = 4 * mu * L
@@ -41,7 +41,7 @@ moments.ModelPlot.plot_model(gen_mod,
                              fig_title='Demographic model from GADMA',
                              draw_scale=True,
                              pop_labels=['NN'],
-                             nref=1769,
+                             nref=1744,
                              gen_time=7.0,
                              gen_time_units='years',
                              reverse_timeline=True)

@@ -4,12 +4,14 @@ import os
 def translate_units(input_file, output_file, theta0):
     with open(input_file) as fin:
         header = next(fin)
-        params = header.split(",")[1:-1]
+        params = ["Nanc"]
+        params.extend(header.split(",")[1:-1])
         with open(output_file, 'w') as fout:
             fout.write("," + ",".join(params) + "\n")
             for line in fin:
                 new_vals = [line.split(",")[0]]
-                Nanc = float(line.split(",")[-1])
+                Nanc = float(line.split(",")[-1]) / theta0
+                new_vals.append(Nanc)
                 for par, val in zip(params, line.split(",")[1:-1]):
                     if par.startswith("n"):
                         new_vals.append(float(val) * Nanc)

@@ -7,13 +7,14 @@ def model_func(params, ns):
 	sts = moments.LinearSystem_1D.steady_state_1D(np.sum(ns))
 	fs = moments.Spectrum(sts)
 	fs.integrate(tf=t1, Npop=[nu11], dt_fac=0.01)
-	fs.integrate(tf=t2, Npop=[nu21], dt_fac=0.01)
+	nu1_func = lambda t: nu11 * (nu21 / nu11) ** (t / t2)
+	fs.integrate(tf=t2, Npop=lambda t: [nu1_func(t)], dt_fac=0.01)
 	return fs
 
-data = moments.Spectrum.from_file('/home/enoskova/Workspace/GADMA_workshop/outputs/easySFS_output/dadi/NN-10.sfs')
+data = moments.Spectrum.from_file('/home/jupyter-user_workshop/GADMA_workshops/SMSC_workshop/outputs/easySFS_output/dadi/NN-10.sfs')
 ns = data.sample_sizes
 
-p0 = [0.0002347991914082066, 0.002159641818300005, 0.00023072008677014853, 0.002159641818300005]
+p0 = [0.24897312163645108, 1.0010005001667084, 0.012706082618680708, 0.012649295148583513]
 lower_bound = [1e-15, 0.0001, 1e-15, 0.0001]
 upper_bound = [5.0, 100.0, 5.0, 100.0]
 model = model_func(p0, ns)
@@ -23,7 +24,7 @@ print('Model log likelihood (LL(model, data)): {0}'.format(ll_model))
 theta = moments.Inference.optimal_sfs_scaling(model, data)
 print('Optimal value of theta: {0}'.format(theta))
 
-Nanc = 1764.3118586302103
+Nanc = 1749.7828165898527
 mu = 1.554e-08
 L = 2329306282
 theta0 = 4 * mu * L
@@ -39,7 +40,7 @@ moments.ModelPlot.plot_model(gen_mod,
                              fig_title='Demographic model from GADMA',
                              draw_scale=True,
                              pop_labels=['NN'],
-                             nref=1764,
+                             nref=1749,
                              gen_time=7.0,
                              gen_time_units='years',
                              reverse_timeline=True)

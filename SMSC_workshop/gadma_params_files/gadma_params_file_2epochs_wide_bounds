@@ -1,5 +1,5 @@
-Input data: easySFS_output/dadi/NN-10.sfs
-Output directory: gadma_output_2epochs_wide_bounds
+Input data: outputs/easySFS_output/dadi/NN-10.sfs
+Output directory: outputs/gadma_outputs/gadma_output_2epochs_wide_bounds
 
 Mutation rate: 1.554e-8
 Sequence length: 2329306282
@@ -13,5 +13,5 @@ Final structure: 2
 # We take lower bound to be 10^(-4)*Nanc
 min_N: 1e-4
 
-Number of repeats: 8
+Number of repeats: 4
 Number of processes: 4

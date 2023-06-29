@@ -1,0 +1,45 @@
+import moments
+import numpy as np
+
+def model_func(params, ns):
+	t1, nu11, t2, nu21 = params
+	_Nanc_size = 1.0  # This value can be used in splits with fractions
+	sts = moments.LinearSystem_1D.steady_state_1D(np.sum(ns))
+	fs = moments.Spectrum(sts)
+	fs.integrate(tf=t1, Npop=[nu11], dt_fac=0.01)
+	fs.integrate(tf=t2, Npop=[nu21], dt_fac=0.01)
+	return fs
+
+data = moments.Spectrum.from_file('/home/enoskova/Workspace/GADMA_workshops/ConGen2023_tutorial_demographic_inference/outputs/easySFS_output/dadi/NN-10.sfs')
+ns = data.sample_sizes
+
+p0 = [2.036062128332667e-06, 0.010905995769794856, 0.0043935335628645525, 0.020127254643685158]
+lower_bound = [1e-15, 1e-05, 1e-15, 1e-05]
+upper_bound = [5.0, 100.0, 5.0, 100.0]
+model = model_func(p0, ns)
+ll_model = moments.Inference.ll_multinom(model, data)
+print('Model log likelihood (LL(model, data)): {0}'.format(ll_model))
+
+theta = moments.Inference.optimal_sfs_scaling(model, data)
+print('Optimal value of theta: {0}'.format(theta))
+
+Nanc = 1750.1108019085484
+mu = 1.554e-08
+L = 2329306282
+theta0 = 4 * mu * L
+Nanc = int(theta / theta0)
+print('Size of ancestral population: {0}'.format(Nanc))
+
+
+plot_ns = [4 for _ in ns]  # small sizes for fast drawing
+gen_mod = moments.ModelPlot.generate_model(model_func,
+                                           p0, plot_ns)
+moments.ModelPlot.plot_model(gen_mod,
+                             save_file='model_from_GADMA.png',
+                             fig_title='Demographic model from GADMA',
+                             draw_scale=True,
+                             pop_labels=['NN'],
+                             nref=1750,
+                             gen_time=7.0,
+                             gen_time_units='years',
+                             reverse_timeline=True)

@@ -7,15 +7,16 @@ def model_func(params, ns, pts):
 	xx = dadi.Numerics.default_grid(pts)
 	phi = dadi.PhiManip.phi_1D(xx)
 	phi = dadi.Integration.one_pop(phi, xx, T=t1, nu=nu11)
-	phi = dadi.Integration.one_pop(phi, xx, T=t2, nu=nu21)
+	nu1_func = lambda t: nu11 * (nu21 / nu11) ** (t / t2)
+	phi = dadi.Integration.one_pop(phi, xx, T=t2, nu=nu1_func)
 	sfs = dadi.Spectrum.from_phi(phi, ns, [xx]*len(ns))
 	return sfs
 
-data = dadi.Spectrum.from_file('/home/enoskova/Workspace/GADMA_workshop/outputs/easySFS_output/dadi/NN-10.sfs')
+data = dadi.Spectrum.from_file('/home/jupyter-user_workshop/GADMA_workshops/SMSC_workshop/outputs/easySFS_output/dadi/NN-10.sfs')
 pts = [10, 20, 30]
 ns = data.sample_sizes
 
-p0 = [0.0002347991914082066, 0.002159641818300005, 0.00023072008677014853, 0.002159641818300005]
+p0 = [0.24897312163645108, 1.0010005001667084, 0.012706082618680708, 0.012649295148583513]
 lower_bound = [1e-15, 0.0001, 1e-15, 0.0001]
 upper_bound = [5.0, 100.0, 5.0, 100.0]
 func_ex = dadi.Numerics.make_extrap_log_func(model_func)
@@ -26,7 +27,7 @@ print('Model log likelihood (LL(model, data)): {0}'.format(ll_model))
 theta = dadi.Inference.optimal_sfs_scaling(model, data)
 print('Optimal value of theta: {0}'.format(theta))
 
-Nanc = 1764.3118586302103
+Nanc = 1749.7828165898527
 mu = 1.554e-08
 L = 2329306282
 theta0 = 4 * mu * L

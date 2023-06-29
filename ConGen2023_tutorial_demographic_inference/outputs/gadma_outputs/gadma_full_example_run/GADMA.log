@@ -1,0 +1,480 @@
+Data reading
+Number of populations: 1
+Projections: [10]
+Population labels: ['NN']
+Outgroup: False
+[92m--Successful data reading--[0m
+
+[92m--Successful arguments parsing--[0m
+
+Bootstrap data reading
+Number of files found: 50
+[92m--Successful bootstrap data reading--[0m
+
+[93mUserWarning: Code for momentsLD will not be generated as data was not preprocessed for it (run gadma-precompute_ld_data script on the VCF file first)[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/cli/settings_storage.py:1435)
+Parameters of launch are saved in output directory: /home/enoskova/Workspace/GADMA_workshops/ConGen2023_tutorial_demographic_inference/outputs/gadma_outputs/gadma_full_example_run/params_file
+All output is saved in output directory: /home/enoskova/Workspace/GADMA_workshops/ConGen2023_tutorial_demographic_inference/outputs/gadma_outputs/gadma_full_example_run/GADMA.log
+
+[94m--Start pipeline--[0m
+Run launch number 1
+Run launch number 4
+Run launch number 2
+Run launch number 3
+
+[000:01:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-351.54	 [Nanc = 1738] [ [ 0.621(t1), [0.019(nu11)], [Exp(dyn11)] ] ]	m	(theta =  251649.71)
+Run 3	-351.66	 [Nanc = 1743] [ [ 1.537(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252485.06)
+Run 4	-361.93	 [Nanc = 1745] [ [ 8.94e-04(t1), [0.144(nu11)], [Sud(dyn11)] ],	[ 47.96(t2), [16.129(nu21)], [Sud(dyn21)] ] ]	m	(theta =  252670.64)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+You can find the picture and the Python code of the best model in the output directory.
+
+Finish genetic algorithm number 2
+Run launch number 5
+
+[000:02:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	m	(theta =  251978.25)
+Run 3	-351.43	 [Nanc = 1741] [ [ 1.525(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252088.53)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.42e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	m	(theta =  251854.24)
+Run 5	-355.26	 [Nanc = 1746] [ [ 65.199(t1), [3.497(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252925.85)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+You can find the picture and the Python code of the best model in the output directory.
+
+
+[000:03:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	m	(theta =  251983.80)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252235.16)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+You can find the picture and the Python code of the best model in the output directory.
+
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00225853] N_new [0.00294551]
+relative change 0.3041710961941817
+[93mRun 4: failed to generate code due to the following exception: momi2: Linear size function is  not supported[0m
+[93mRun 4: failed to generate code due to the following exception: momi2: Linear size function is  not supported[0m
+Finish genetic algorithm number 4
+Run launch number 6
+
+[000:04:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252235.16)
+Run 6	-355.11	 [Nanc = 1745] [ [ 14.272(t1), [4.827(nu11)], [Sud(dyn11)] ] ]	m	(theta =  252737.91)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+You can find the picture and the Python code of the best model in the output directory.
+
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Finish genetic algorithm number 3
+Run launch number 7
+
+[000:05:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]		(theta =  251974.93)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-352.80	 [Nanc = 1735] [ [ 9.326(t1), [0.384(nu11)], [Exp(dyn11)] ] ]	m	(theta =  251293.70)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 7	-392.98	 [Nanc = 1764] [ [ 1615.199(t1), [22.341(nu11)], [Lin(dyn11)] ] ]	c	(theta =  255428.98)
+
+INFO: Some parameters of the best model hit their bounds: nu21 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-351.31	-2787.22 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	(theta =  252051.36)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252051.36)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 7	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00145071] N_new [0.00204919]
+relative change 0.41253704025890775
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00204919] N_new [0.00264766]
+relative change 0.29205396283505103
+[93mRun 7: failed to generate code due to the following exception: momi2: Linear size function is  not supported[0m
+
+[000:06:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]		(theta =  251974.93)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.98	 [Nanc = 1742] [ [ 9.517(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252344.22)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 7	-372.29	 [Nanc = 1751] [ [ 1164.773(t1), [6.995(nu11)], [Lin(dyn11)] ] ]	(theta =  253605.87)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+
+INFO: Some parameters of the best model hit their bounds: nu21 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-351.31	-2787.22 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 5	-354.74	685.41 (eps=1.0e-05)	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 7	-372.29	729.53 (eps=1.0e-05)	 [Nanc = 1751] [ [ 1164.773(t1), [6.995(nu11)], [Lin(dyn11)] ] ]	(theta =  253605.87)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	(theta =  252051.36)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252051.36)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 7	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+Finish genetic algorithm number 5
+Run launch number 8
+
+[000:07:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]		(theta =  251974.93)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.98	 [Nanc = 1742] [ [ 9.517(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	m	(theta =  252344.22)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 7	-370.95	 [Nanc = 1754] [ [ 0.021(t1), [1684.433(nu11)], [Sud(dyn11)] ],	[ 1109.98(t2), [6.522(nu21)], [Lin(dyn21)] ] ]	(theta =  254051.21)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 8	-426.04	 [Nanc = 1802] [ [ 2249.851(t1), [46.547(nu11)], [Lin(dyn11)] ] ]	m	(theta =  261046.66)
+
+INFO: Some parameters of the best model hit their bounds: nu21 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-351.31	-2787.22 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 5	-354.74	685.41 (eps=1.0e-05)	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	(theta =  252232.48)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252232.48)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 7	-372.29	729.53 (eps=1.0e-05)	 [Nanc = 1751] [ [ 1164.773(t1), [6.995(nu11)], [Lin(dyn11)] ] ]	(theta =  253605.87)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	(theta =  252051.36)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252051.36)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 7	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 8	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+Finish genetic algorithm number 1
+[93mRun 7: failed to generate code due to the following exception: momi2: Linear size function is  not supported[0m
+[93mRun 7: failed to generate code due to the following exception: momi2: Linear size function is  not supported[0m
+Finish genetic algorithm number 7
+
+[000:08:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]		(theta =  251974.93)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.91	 [Nanc = 1740] [ [ 9.455(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	(theta =  252004.54)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 7	-370.94	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	f	(theta =  254022.88)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 8	-389.91	 [Nanc = 1758] [ [ 178.857(t1), [56.481(nu11)], [Sud(dyn11)] ] ]	m	(theta =  254583.60)
+
+INFO: Some parameters of the best model hit their bounds: nu21 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-351.31	-2787.22 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 1	-351.77	631.90 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]	(theta =  251974.93)
+Run 1	-351.77	631.90 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]	f	(theta =  251974.93)
+Run 5	-354.74	685.41 (eps=1.0e-05)	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	(theta =  252232.48)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252232.48)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 7	-370.94	709.64 (eps=1.0e-05)	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	(theta =  254022.88)
+Run 7	-370.94	709.64 (eps=1.0e-05)	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	f	(theta =  254022.88)
+Run 7	-372.29	729.53 (eps=1.0e-05)	 [Nanc = 1751] [ [ 1164.773(t1), [6.995(nu11)], [Lin(dyn11)] ] ]	(theta =  253605.87)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	(theta =  252051.36)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252051.36)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 7	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 8	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00020259] N_new [0.00047894]
+relative change 1.3640104335116003
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00047894] N_new [0.00113221]
+relative change 1.3640104335116001
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00113221] N_new [0.00201814]
+relative change 0.7824766950963605
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00201814] N_new [0.00290407]
+relative change 0.43898284743299826
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00290407] N_new [0.00379]
+relative change 0.30506468386061714
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.00189529] N_new [0.0027812]
+relative change 0.467429020751306
+warning: large change size at time t = 0.00 in function integrate_neutral
+N_old,  [0.0027812] N_new [0.00366711]
+relative change 0.31853603420762927
+
+[000:09:00]
+All best by log-likelihood models
+Number	log-likelihood	Model
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]		(theta =  251974.93)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.91	 [Nanc = 1740] [ [ 9.455(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	(theta =  252004.54)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 8	-358.53	 [Nanc = 1743] [ [ 31.914(t1), [10.786(nu11)], [Sud(dyn11)] ] ]	(theta =  252479.32)
+Run 7	-370.94	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	f	(theta =  254022.88)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+
+INFO: Some parameters of the best model hit their bounds: nu21 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-351.31	-2787.22 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.91	528.72 (eps=1.0e-05)	 [Nanc = 1740] [ [ 9.455(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	(theta =  252004.54)
+Run 1	-351.77	631.90 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]	(theta =  251974.93)
+Run 1	-351.77	631.90 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]	f	(theta =  251974.93)
+Run 8	-358.53	683.82 (eps=1.0e-05)	 [Nanc = 1743] [ [ 31.914(t1), [10.786(nu11)], [Sud(dyn11)] ] ]	(theta =  252479.32)
+Run 5	-354.74	685.41 (eps=1.0e-05)	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	(theta =  252232.48)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252232.48)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 7	-370.94	709.64 (eps=1.0e-05)	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	(theta =  254022.88)
+Run 7	-370.94	709.64 (eps=1.0e-05)	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	f	(theta =  254022.88)
+Run 7	-372.29	729.53 (eps=1.0e-05)	 [Nanc = 1751] [ [ 1164.773(t1), [6.995(nu11)], [Lin(dyn11)] ] ]	(theta =  253605.87)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	(theta =  252051.36)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252051.36)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 7	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 8	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+Finish genetic algorithm number 6
+Finish genetic algorithm number 8
+
+[000:09:20]
+All best by log-likelihood models
+Number	log-likelihood	Model
+[93mUserWarning: Additional evaluation for theta. Nothing to worry if this warning is seldom.[0m (/home/enoskova/.local/lib/python3.8/site-packages/gadma/engines/dadi_moments_common.py:138)
+Run 1	-351.31	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]		(theta =  251974.93)
+Run 3	-351.43	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.91	 [Nanc = 1740] [ [ 9.455(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	(theta =  252004.54)
+Run 4	-353.43	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.74	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 8	-358.53	 [Nanc = 1743] [ [ 31.914(t1), [10.786(nu11)], [Sud(dyn11)] ] ]	(theta =  252479.32)
+Run 7	-370.94	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	f	(theta =  254022.88)
+Run 2	-374.63	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+
+INFO: Some parameters of the best model hit their bounds: nu21 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by CLAIC score models
+Number	log-likelihood	CLAIC score	Model
+Run 1	-351.31	-2787.22 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.583(t1), [0.017(nu11)], [Exp(dyn11)] ] ]	(theta =  251983.80)
+Run 3	-351.43	-589.58 (eps=1.0e-05)	 [Nanc = 1740] [ [ 1.524(t1), [0.05(nu11)], [Exp(dyn11)] ] ]	(theta =  252058.70)
+Run 6	-351.91	528.72 (eps=1.0e-05)	 [Nanc = 1740] [ [ 9.455(t1), [0.385(nu11)], [Exp(dyn11)] ] ]	(theta =  252004.54)
+Run 1	-351.77	631.90 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]	(theta =  251974.93)
+Run 1	-351.77	631.90 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.292(t1), [5.503(nu11)], [Exp(dyn11)] ],	[ 0.292(t2), [0.017(nu21)], [Exp(dyn21)] ] ]	f	(theta =  251974.93)
+Run 8	-358.53	683.82 (eps=1.0e-05)	 [Nanc = 1743] [ [ 31.914(t1), [10.786(nu11)], [Sud(dyn11)] ] ]	(theta =  252479.32)
+Run 5	-354.74	685.41 (eps=1.0e-05)	 [Nanc = 1742] [ [ 64.341(t1), [3.487(nu11)], [Exp(dyn11)] ] ]	(theta =  252235.16)
+Run 8	-358.54	686.12 (eps=1.0e-05)	 [Nanc = 1743] [ [ 15.957(t1), [10.786(nu11)], [Sud(dyn11)] ],	[ 15.957(t2), [10.786(nu21)], [Sud(dyn21)] ] ]	(theta =  252479.13)
+Run 8	-358.54	686.12 (eps=1.0e-05)	 [Nanc = 1743] [ [ 15.957(t1), [10.786(nu11)], [Sud(dyn11)] ],	[ 15.957(t2), [10.786(nu21)], [Sud(dyn21)] ] ]	f	(theta =  252479.13)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	(theta =  251854.25)
+Run 4	-353.43	689.63 (eps=1.0e-05)	 [Nanc = 1739] [ [ 2.70e-04(t1), [82.097(nu11)], [Sud(dyn11)] ],	[ 47.805(t2), [0.549(nu21)], [Lin(dyn21)] ] ]	f	(theta =  251854.25)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	(theta =  252232.48)
+Run 5	-354.88	692.07 (eps=1.0e-05)	 [Nanc = 1742] [ [ 32.17(t1), [77.942(nu11)], [Exp(dyn11)] ],	[ 32.17(t2), [3.487(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252232.48)
+Run 4	-362.15	695.56 (eps=1.0e-05)	 [Nanc = 1745] [ [ 49.091(t1), [16.467(nu11)], [Sud(dyn11)] ] ]	(theta =  252683.03)
+Run 2	-374.64	698.44 (eps=1.0e-05)	 [Nanc = 1749] [ [ 107.618(t1), [35.223(nu11)], [Sud(dyn11)] ] ]	(theta =  253325.70)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	(theta =  253397.98)
+Run 2	-374.63	699.33 (eps=1.0e-05)	 [Nanc = 1750] [ [ 0.05(t1), [19.087(nu11)], [Sud(dyn11)] ],	[ 107.648(t2), [35.225(nu21)], [Sud(dyn21)] ] ]	f	(theta =  253397.98)
+Run 6	-352.16	703.85 (eps=1.0e-05)	 [Nanc = 1740] [ [ 4.727(t1), [25.881(nu11)], [Exp(dyn11)] ],	[ 4.727(t2), [0.385(nu21)], [Exp(dyn21)] ] ]	(theta =  251999.77)
+Run 6	-352.16	703.85 (eps=1.0e-05)	 [Nanc = 1740] [ [ 4.727(t1), [25.881(nu11)], [Exp(dyn11)] ],	[ 4.727(t2), [0.385(nu21)], [Exp(dyn21)] ] ]	f	(theta =  251999.77)
+Run 7	-370.94	709.64 (eps=1.0e-05)	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	(theta =  254022.88)
+Run 7	-370.94	709.64 (eps=1.0e-05)	 [Nanc = 1754] [ [ 0.023(t1), [1677.78(nu11)], [Sud(dyn11)] ],	[ 1104.844(t2), [6.513(nu21)], [Lin(dyn21)] ] ]	f	(theta =  254022.88)
+Run 7	-372.29	729.53 (eps=1.0e-05)	 [Nanc = 1751] [ [ 1164.773(t1), [6.995(nu11)], [Lin(dyn11)] ] ]	(theta =  253605.87)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	(theta =  252051.36)
+Run 3	-351.81	804.01 (eps=1.0e-05)	 [Nanc = 1740] [ [ 0.762(t1), [9.329(nu11)], [Exp(dyn11)] ],	[ 0.762(t2), [0.05(nu21)], [Exp(dyn21)] ] ]	f	(theta =  252051.36)
+Run 4	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 1	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 2	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 3	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 5	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 6	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 7	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+Run 8	-18152.06	36304.12 (eps=1.0e-05)	 [Nanc = 1287] [  ]	(theta =  186464.09)
+
+INFO: Some parameters of the best model hit their bounds: nu11 hit lower bounds
+
+You can find the picture and the Python code of the best model in the output directory.
+
+
+--Finish pipeline--
+
+Thank you for using GADMA!
+
+In case of any questions or problems, please contact: ekaterina.e.noskova@gmail.com
+
