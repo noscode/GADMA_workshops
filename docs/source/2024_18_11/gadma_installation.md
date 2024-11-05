@@ -78,11 +78,11 @@ $ conda config --add channels conda-forge
     In case of any questions or problems, please contact: ekaterina.e.noskova@gmail.com
     ```
     
-2. Download example data [`example_input_for_gadma.sfs`](https://gadma_workshops.readthedocs.io/2024_18_11/files/example_input_for_gadma.sfs) and input file [`gadma_params.sfs`](https://gadma_workshops.readthedocs.io/2024_18_11/files/gadma_params.sfs):
+2. Download example data [`example_input_for_gadma.sfs`](https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_input_for_gadma.sfs) and input file [`gadma_params.sfs`](https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/gadma_params):
 
     ``` console
-    $ wget https://gadma_workshops.readthedocs.io/2024_18_11/files/example_input_for_gadma.sfs
-    $ wget https://gadma_workshops.readthedocs.io/2024_18_11/files/gadma_params.sfs
+    $ wget https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_input_for_gadma.sfs
+    $ wget https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/gadma_params
     ```
     And run:
     ```console

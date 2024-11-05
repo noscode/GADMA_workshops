@@ -86,10 +86,10 @@ alias atlas='/path/to/atlas/build/atlas'
     - ATLAS terminated successfully in 0 seconds!
     ```
     
-2. Download example input file [`example_for_atlas.bam`](https://gadma_workshops.readthedocs.io/2024_18_11/files/example_for_atlas.bam):
+2. Download example input file [`example_for_atlas.bam`](https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_for_atlas.bam):
 
     ``` console
-    $ wget https://gadma_workshops.readthedocs.io/2024_18_11/files/example_for_atlas.bam
+    $ wget https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_for_atlas.bam
     ```
     And run:
     ```console
