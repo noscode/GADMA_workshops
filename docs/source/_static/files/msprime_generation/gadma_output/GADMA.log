@@ -1,0 +1,50 @@
+Data reading
+Number of populations: 1
+Projections: [8]
+Population labels: ['Pop1']
+Outgroup: False
+[92m--Successful data reading (0.00 s)--[0m
+
+[92m--Successful arguments parsing--[0m
+
+[93mUserWarning: Code for momentsLD will not be generated as data was not preprocessed for it (run gadma-precompute_ld_data script on the VCF file first)[0m (/Users/noskovae/anaconda3/envs/gadma_env/lib/python3.8/site-packages/gadma/cli/settings_storage.py:1508)
+Parameters of launch are saved in output directory: /Users/noskovae/Workspace/GADMA_workshops/docs/source/2024_18_11/files/msprime_generation/gadma_output/params_file
+All output is saved in output directory: /Users/noskovae/Workspace/GADMA_workshops/docs/source/2024_18_11/files/msprime_generation/gadma_output/GADMA.log
+
+[94m--Start pipeline--[0m
+
+[000:00:15]
+All best by log-likelihood models
+Number	log-likelihood	AIC score	Model	Units
+Run 1	-18.24	42.47	 [Nanc = 7381] [ [ 26220.407(t1), [11139.886(nu11)], [Sud(dyn11)] ] ]	f	(theta =  738.12)	physical, time in generations
+Run 2	-18.24	42.47	 [Nanc = 7401] [ [ 26118.112(t1), [11138.413(nu11)], [Sud(dyn11)] ] ]	f	(theta =  740.17)	physical, time in generations
+
+You can find the picture and the Python code of the best model in the output directory.
+
+All best by AIC score models
+Number	log-likelihood	AIC score	Model	Units
+Run 1	-19.76	39.51	 [Nanc = 10096] [  ]	(theta =  1009.70)	physical, time in generations
+Run 2	-19.76	39.51	 [Nanc = 10096] [  ]	(theta =  1009.70)	physical, time in generations
+
+INFO: Some numerics (10.08%) for the best model were failed. If this is the end of GADMA run then it is better to run more repeats.
+
+You can find the picture and the Python code of the best model in the output directory.
+
+
+--Finish pipeline--
+
+
+If you use GADMA in your research please cite:
+[GADMA]
+Noskova et al., 2020: https://doi.org/10.1093/gigascience/giaa005
+Noskova et al., 2023: https://doi.org/10.1093/gigascience/giad059
+[Engine moments]
+Jouganous et al., 2017: https://doi.org/10.1534/genetics.117.200493
+
+More information about citations: https://gadma.readthedocs.io/en/latest/citations.html
+
+
+Thank you for using GADMA!
+
+In case of any questions or problems, please contact: ekaterina.e.noskova@gmail.com
+
