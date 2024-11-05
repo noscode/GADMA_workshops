@@ -1,0 +1,9 @@
+Input data: example_input_for_gadma.sfs
+Mutation rate: 1.25e-8
+Sequence length: 2000000
+Output directory: gadma_output
+Engine: moments
+Initial structure: 1
+Final structure: 2
+Linked SNP's: False
+Number of repeats: 2
