@@ -29,7 +29,6 @@ $ conda activate gadma_env
 
 Add channels that we are going to use for installation:
 ```console
-$ conda config --add channels defaults
 $ conda config --add channels bioconda
 $ conda config --add channels conda-forge
 ```
@@ -60,6 +59,13 @@ $ conda config --add channels conda-forge
     $ pip install gadma
     ```
 ````
+
+## Check the version of `matplotlib`
+
+In order to successfully draw models, GADMA requires `matploltib` package no higher than 3.7.5. Check that the correct varsion is installed:
+```console
+$ pip install "matplotlib<=3.7.5"
+```
 
 ## Verify Installation
 
