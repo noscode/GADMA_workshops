@@ -1,0 +1,47 @@
+Data reading
+Number of populations: 1
+Projections: [10]
+Population labels: ['NN']
+Outgroup: True
+[92m--Successful data reading (0.00 s)--[0m
+
+[92m--Successful arguments parsing--[0m
+
+[93mUserWarning: Code for momentsLD will not be generated as data was not preprocessed for it (run gadma-precompute_ld_data script on the VCF file first)[0m (/Users/noskovae/anaconda3/envs/test_env/lib/python3.10/site-packages/gadma/cli/settings_storage.py:1507)
+Parameters of launch are saved in output directory: /Users/noskovae/Workspace/GADMA_workshops/2024-11-Demographic_Inference_Worshop/tutorials/3_GADMA_tutorial/outputs/gadma_outputs/gadma_output_2epochs/params_file
+All output is saved in output directory: /Users/noskovae/Workspace/GADMA_workshops/2024-11-Demographic_Inference_Worshop/tutorials/3_GADMA_tutorial/outputs/gadma_outputs/gadma_output_2epochs/GADMA.log
+
+[94m--Start pipeline--[0m
+
+[000:00:35]
+All best by log-likelihood models
+Number	log-likelihood	Model	Units
+Run 3	-321.32	 [Nanc = 341520] [ [ 33374.263(t1), [25352.623(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2505010.49)	physical, time in generations
+Run 5	-321.59	 [Nanc = 341654] [ [ 33032.844(t1), [25021.191(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2505993.70)	physical, time in generations
+Run 1	-330.14	 [Nanc = 340861] [ [ 28810.085(t1), [21778.98(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2500178.88)	physical, time in generations
+Run 2	-336.72	 [Nanc = 342230] [ [ 60053.294(t1), [17229.572(nu11)], [Lin(dyn11)] ] ]	f	(theta =  2510220.05)	physical, time in generations
+Run 6	-351.44	 [Nanc = 340302] [ [ 25162.454(t1), [18878.615(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2496075.94)	physical, time in generations
+Run 7	-382.33	 [Nanc = 339661] [ [ 8475.333(t1), [22256.275(nu11)], [Sud(dyn11)] ] ]	f	(theta =  2491378.75)	physical, time in generations
+Run 8	-407.41	 [Nanc = 339399] [ [ 19692.63(t1), [14479.729(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2489455.57)	physical, time in generations
+Run 4	-608.06	 [Nanc = 345559] [ [ 88261.675(t1), [33511.503(nu11)], [Lin(dyn11)] ] ]	f	(theta =  2534634.56)	physical, time in generations
+
+You can find the picture and the Python code of the best model in the output directory.
+
+
+--Finish pipeline--
+
+
+If you use GADMA in your research please cite:
+[GADMA]
+Noskova et al., 2020: https://doi.org/10.1093/gigascience/giaa005
+Noskova et al., 2023: https://doi.org/10.1093/gigascience/giad059
+[Engine moments]
+Jouganous et al., 2017: https://doi.org/10.1534/genetics.117.200493
+
+More information about citations: https://gadma.readthedocs.io/en/latest/citations.html
+
+
+Thank you for using GADMA!
+
+In case of any questions or problems, please contact: ekaterina.e.noskova@gmail.com
+

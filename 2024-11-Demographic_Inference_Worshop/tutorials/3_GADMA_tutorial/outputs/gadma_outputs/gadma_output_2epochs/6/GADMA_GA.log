@@ -1,0 +1,3329 @@
+--Start global optimization Genetic_algorithm--
+Generation #0.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-183140.180621	()	
+Current mean mutation rate:	 0.273263
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -183140.18062145915
+Solution:		()	
+
+Mean time:	nan sec.
+
+
+
+--Finish global optimization Genetic_algorithm--
+Result:
+   status: 0
+ success: True
+ message: Number of variables == 0
+       x: []	
+       y: -183140.18062145915
+  n_eval: 1
+  n_iter: 0
+
+--Start local optimization optimize_log--
+0	-183140.18062145915	()	
+--Finish local optimization optimize_log--
+Result:
+   status: 0
+ success: True
+ message: GLOBAL OPTIMIZATION: Number of variables == 0; LOCAL OPTIMIZATION: Number of variables == 0
+       x: []
+       y: -183140.18062145915
+  n_eval: 2
+  n_iter: 0
+
+--Start global optimization Genetic_algorithm--
+Generation #0.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+1	-44074.146737	(t1=0.06825,	nu11=0.23553,	dyn11=Exp)	r
+2	-55142.826402	(t1=0.26942,	nu11=0.14591,	dyn11=Sud)	r
+3	-154325.991551	(t1=0.00309,	nu11=0.08695,	dyn11=Exp)	r
+4	-163112.048672	(t1=0.47437,	nu11=0.07808,	dyn11=Sud)	r
+5	-170751.954534	(t1=0.00086,	nu11=0.05542,	dyn11=Exp)	r
+6	-173867.956291	(t1=2.1262,	nu11=0.46808,	dyn11=Sud)	r
+7	-181202.644787	(t1=3.26844,	nu11=0.57212,	dyn11=Sud)	r
+8	-182992.427132	(t1=0.0003,	nu11=0.74576,	dyn11=Exp)	r
+9	-183081.681424	(t1=2e-05,	nu11=0.24177,	dyn11=Exp)	r
+10	-183125.994597	(t1=2.41e-06,	nu11=0.15452,	dyn11=Exp)	r
+11	-183140.101529	(t1=6.86e-08,	nu11=0.54304,	dyn11=Exp)	r
+12	-183140.180621	(t1=5.17e-15,	nu11=0.08212,	dyn11=Sud)	r
+13	-183140.180621	(t1=0.00956,	nu11=1.0,	dyn11=Sud)	
+14	-183140.180624	(t1=2.33e-12,	nu11=1.6226,	dyn11=Sud)	r
+15	-183140.180628	(t1=2.65e-11,	nu11=1.08273,	dyn11=Sud)	r
+16	-183140.201981	(t1=1.02e-08,	nu11=3.19148,	dyn11=Sud)	r
+17	-183147.552738	(t1=1e-05,	nu11=1.72848,	dyn11=Exp)	r
+18	-183155.677546	(t1=2e-05,	nu11=2.06475,	dyn11=Exp)	r
+19	-183765.596768	(t1=0.0003,	nu11=6.97129,	dyn11=Lin)	r
+20	-184451.671487	(t1=0.00053,	nu11=5.15791,	dyn11=Sud)	r
+21	-190453.246182	(t1=0.00418,	nu11=2.35262,	dyn11=Sud)	r
+22	-195724.310343	(t1=0.00913,	nu11=3.02468,	dyn11=Lin)	r
+23	-199178.015771	(t1=0.00779,	nu11=3.06881,	dyn11=Sud)	r
+24	-204683.633439	(t1=0.03634,	nu11=1.61844,	dyn11=Exp)	r
+25	-239915.743649	(t1=0.02466,	nu11=3.93168,	dyn11=Sud)	r
+26	-277877.708014	(t1=3.02407,	nu11=1.90059,	dyn11=Sud)	r
+27	-315294.931877	(t1=0.05072,	nu11=5.64303,	dyn11=Sud)	r
+28	-407999.410227	(t1=3.57118,	nu11=2.31383,	dyn11=Lin)	r
+29	-428100.018936	(t1=0.08941,	nu11=17.54505,	dyn11=Lin)	r
+Current mean mutation rate:	 0.273263
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -30739.15713818092
+Solution:		(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+
+Mean time:	nan sec.
+
+
+
+Generation #1.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+1	-33932.310641	(t1=0.00214,	nu11=0.02492,	dyn11=Sud)	mmm
+2	-38923.030764	(t1=0.06825,	nu11=0.05542,	dyn11=Exp)	c
+3	-43729.021059	(t1=0.26942,	nu11=0.24177,	dyn11=Sud)	c
+4	-44074.146737	(t1=0.06825,	nu11=0.23553,	dyn11=Exp)	r
+5	-55142.826402	(t1=0.26942,	nu11=0.14591,	dyn11=Sud)	r
+6	-102939.580040	(t1=0.93466,	nu11=0.58129,	dyn11=Sud)	r
+7	-165889.615851	(t1=2.03078,	nu11=0.71995,	dyn11=Sud)	mm
+8	-181202.644787	(t1=3.26844,	nu11=0.57212,	dyn11=Sud)	c
+9	-366100.668035	(t1=0.02827,	nu11=0.0268,	dyn11=Sud)	r
+Current mean mutation rate:	 0.247949
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -30739.15713818092
+Solution:		(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+
+Mean time:	0.027 sec.
+
+
+
+Generation #2.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+1	-33932.310641	(t1=0.00214,	nu11=0.02492,	dyn11=Sud)	mmm
+2	-37820.552863	(t1=0.06825,	nu11=0.13777,	dyn11=Lin)	mm
+3	-38807.409360	(t1=0.39102,	nu11=0.2564,	dyn11=Sud)	mmm
+4	-38923.030764	(t1=0.06825,	nu11=0.05542,	dyn11=Exp)	c
+5	-96781.363464	(t1=0.86829,	nu11=0.58129,	dyn11=Sud)	c
+6	-183134.008402	(t1=3.46e-06,	nu11=0.63085,	dyn11=Sud)	r
+7	-183140.180621	(t1=2.03078,	nu11=0.05542,	dyn11=Sud)	c
+8	-183140.180621	(t1=3.26844,	nu11=0.0268,	dyn11=Sud)	c
+9	-183165.206837	(t1=2e-05,	nu11=2.06179,	dyn11=Sud)	r
+Current mean mutation rate:	 0.224979
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -30739.15713818092
+Solution:		(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+
+Mean time:	0.031 sec.
+
+
+
+Generation #3.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+2	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+3	-33932.310641	(t1=0.00214,	nu11=0.02492,	dyn11=Sud)	mmm
+4	-37820.552863	(t1=0.06825,	nu11=0.13777,	dyn11=Lin)	mm
+5	-57280.666144	(t1=0.04293,	nu11=0.3691,	dyn11=Sud)	r
+6	-183158.374339	(t1=2e-05,	nu11=1.59845,	dyn11=Sud)	m
+7	-183165.206837	(t1=2e-05,	nu11=2.06179,	dyn11=Sud)	c
+8	-183165.206837	(t1=2e-05,	nu11=2.06179,	dyn11=Sud)	c
+9	-302079.669436	(t1=0.18354,	nu11=1.95977,	dyn11=Exp)	r
+Current mean mutation rate:	 0.331909
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #4.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+2	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+3	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+4	-103735.593518	(t1=0.00158,	nu11=0.01,	dyn11=Exp)	mmm
+5	-113250.952424	(t1=0.04293,	nu11=0.3691,	dyn11=Exp)	c
+6	-181221.405150	(t1=0.00026,	nu11=0.29489,	dyn11=Sud)	r
+7	-183057.138285	(t1=2e-05,	nu11=0.3691,	dyn11=Sud)	c
+8	-183140.180878	(t1=3.50e-09,	nu11=1.05011,	dyn11=Exp)	r
+9	-183144.849740	(t1=1e-05,	nu11=1.33017,	dyn11=Exp)	mmm
+Current mean mutation rate:	 0.301162
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #5.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+2	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+3	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+4	-41568.982531	(t1=0.03844,	nu11=0.05542,	dyn11=Lin)	m
+5	-151257.155283	(t1=0.86829,	nu11=0.01,	dyn11=Exp)	c
+6	-180188.871051	(t1=0.00026,	nu11=0.21338,	dyn11=Sud)	c
+7	-183053.667435	(t1=2e-05,	nu11=0.22879,	dyn11=Exp)	mmm
+8	-183140.180611	(t1=8.88e-11,	nu11=0.92388,	dyn11=Lin)	r
+9	-183320.699564	(t1=0.00019,	nu11=2.21957,	dyn11=Exp)	r
+Current mean mutation rate:	 0.273263
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #6.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-9392.975686	(t1=0.04017,	nu11=0.21834,	dyn11=Sud)	r
+2	-26005.200172	(t1=1.28041,	nu11=0.21109,	dyn11=Lin)	mmm
+3	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	r
+4	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+5	-30739.157138	(t1=0.86829,	nu11=0.21338,	dyn11=Exp)	c
+6	-53601.928496	(t1=0.56007,	nu11=0.2812,	dyn11=Sud)	mmm
+7	-137248.088000	(t1=0.86829,	nu11=0.05542,	dyn11=Lin)	c
+8	-183053.667435	(t1=2e-05,	nu11=0.22879,	dyn11=Exp)	c
+9	-183140.181756	(t1=4.84e-09,	nu11=1.17127,	dyn11=Lin)	r
+Current mean mutation rate:	 0.247949
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #7.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-9392.975686	(t1=0.04017,	nu11=0.21834,	dyn11=Sud)	r
+2	-11946.330068	(t1=0.37314,	nu11=0.27674,	dyn11=Exp)	r
+3	-17805.714929	(t1=0.1286,	nu11=0.11896,	dyn11=Exp)	r
+4	-21086.955335	(t1=0.04017,	nu11=0.10891,	dyn11=Exp)	mm
+5	-23294.728585	(t1=1.0279,	nu11=0.24795,	dyn11=Lin)	mmm
+6	-26005.200172	(t1=1.28041,	nu11=0.21109,	dyn11=Lin)	mmm
+7	-99369.538780	(t1=0.03844,	nu11=0.21109,	dyn11=Lin)	c
+8	-182811.122389	(t1=2e-05,	nu11=0.05542,	dyn11=Exp)	c
+9	-183140.181756	(t1=4.84e-09,	nu11=1.17127,	dyn11=Lin)	c
+Current mean mutation rate:	 0.224979
+Current mean number of params to change during mutation:	  2
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #8.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-9392.975686	(t1=0.04017,	nu11=0.21834,	dyn11=Sud)	r
+2	-11946.330068	(t1=0.37314,	nu11=0.27674,	dyn11=Exp)	r
+3	-12505.963997	(t1=0.14244,	nu11=0.38673,	dyn11=Sud)	mmm
+4	-21086.955335	(t1=0.04017,	nu11=0.10891,	dyn11=Exp)	c
+5	-23294.728585	(t1=1.0279,	nu11=0.24795,	dyn11=Lin)	c
+6	-47057.488778	(t1=0.07854,	nu11=0.15397,	dyn11=Sud)	r
+7	-108004.725098	(t1=1.0279,	nu11=0.05542,	dyn11=Lin)	c
+8	-182989.635356	(t1=2e-05,	nu11=0.05542,	dyn11=Lin)	mm
+9	-183140.164765	(t1=2.97e-09,	nu11=0.36327,	dyn11=Sud)	r
+Current mean mutation rate:	 0.204138
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #9.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+2	-9392.975686	(t1=0.04017,	nu11=0.21834,	dyn11=Sud)	r
+3	-11946.330068	(t1=0.37314,	nu11=0.27674,	dyn11=Exp)	r
+4	-13867.863319	(t1=0.37314,	nu11=0.3324,	dyn11=Lin)	mm
+5	-28297.143970	(t1=0.07854,	nu11=0.38673,	dyn11=Sud)	c
+6	-41969.892074	(t1=0.35247,	nu11=0.18295,	dyn11=Sud)	r
+7	-62525.785443	(t1=0.03844,	nu11=0.36327,	dyn11=Sud)	c
+8	-132515.600278	(t1=0.02082,	nu11=0.21834,	dyn11=Lin)	mm
+9	-183348.497976	(t1=0.00024,	nu11=2.05174,	dyn11=Exp)	r
+Current mean mutation rate:	 0.185227
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #10.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+2	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+3	-9392.975686	(t1=0.04017,	nu11=0.21834,	dyn11=Sud)	r
+4	-13514.246008	(t1=0.47471,	nu11=0.3324,	dyn11=Lin)	m
+5	-21736.795759	(t1=0.07854,	nu11=0.18295,	dyn11=Sud)	c
+6	-42354.468840	(t1=0.35247,	nu11=0.53122,	dyn11=Sud)	m
+7	-101095.408508	(t1=0.03844,	nu11=0.21834,	dyn11=Lin)	c
+8	-167329.232633	(t1=0.0047,	nu11=0.16514,	dyn11=Lin)	r
+9	-182919.239862	(t1=5e-05,	nu11=0.41472,	dyn11=Sud)	r
+Current mean mutation rate:	 0.168068
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #11.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+2	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+3	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+4	-28744.089745	(t1=0.07854,	nu11=0.21834,	dyn11=Exp)	m
+5	-54132.717032	(t1=0.07854,	nu11=0.21834,	dyn11=Lin)	c
+6	-77017.689257	(t1=0.03844,	nu11=0.21834,	dyn11=Exp)	c
+7	-85220.991163	(t1=0.00327,	nu11=0.07055,	dyn11=Sud)	mmm
+8	-183123.672240	(t1=7.33e-06,	nu11=0.36035,	dyn11=Exp)	r
+9	-183140.190755	(t1=6.57e-09,	nu11=5.08154,	dyn11=Exp)	r
+Current mean mutation rate:	 0.152499
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #12.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+2	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+3	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+4	-11236.950078	(t1=0.03844,	nu11=0.21834,	dyn11=Sud)	c
+5	-37537.326601	(t1=0.03844,	nu11=0.13267,	dyn11=Exp)	m
+6	-90873.924856	(t1=0.00302,	nu11=0.07055,	dyn11=Sud)	m
+7	-151020.189229	(t1=0.01651,	nu11=0.30161,	dyn11=Lin)	r
+8	-183140.192674	(t1=6.57e-09,	nu11=5.08154,	dyn11=Lin)	c
+9	-186136.851643	(t1=0.00164,	nu11=9.3315,	dyn11=Exp)	r
+Current mean mutation rate:	 0.138371
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #13.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-6284.268628	(t1=0.0981,	nu11=0.18092,	dyn11=Exp)	mmm
+2	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+3	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+4	-65721.855470	(t1=0.01651,	nu11=0.21834,	dyn11=Sud)	c
+5	-77266.434497	(t1=0.07426,	nu11=0.28978,	dyn11=Lin)	mmm
+6	-166820.043285	(t1=0.00302,	nu11=0.07055,	dyn11=Lin)	c
+7	-182708.530814	(t1=6e-05,	nu11=0.11577,	dyn11=Exp)	r
+8	-183140.108912	(t1=6.57e-09,	nu11=0.21834,	dyn11=Sud)	c
+9	-183140.662264	(t1=3.50e-07,	nu11=3.84986,	dyn11=Exp)	r
+Current mean mutation rate:	 0.125553
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #14.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-515.241540	(t1=0.07854,	nu11=0.11577,	dyn11=Exp)	c
+3	-6284.268628	(t1=0.0981,	nu11=0.18092,	dyn11=Exp)	mmm
+4	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	c
+5	-28744.089745	(t1=0.07854,	nu11=0.21834,	dyn11=Exp)	m
+6	-28804.827868	(t1=0.34749,	nu11=0.2015,	dyn11=Exp)	r
+7	-106605.056779	(t1=0.02047,	nu11=0.09961,	dyn11=Lin)	mmm
+8	-134107.511956	(t1=0.10736,	nu11=0.67821,	dyn11=Exp)	r
+9	-183140.971399	(t1=3.50e-07,	nu11=3.84986,	dyn11=Sud)	c
+Current mean mutation rate:	 0.113922
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #15.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-515.241540	(t1=0.07854,	nu11=0.11577,	dyn11=Exp)	c
+3	-6770.042363	(t1=0.07854,	nu11=0.21834,	dyn11=Sud)	m
+4	-15306.906215	(t1=0.07854,	nu11=0.18092,	dyn11=Exp)	c
+5	-40197.718270	(t1=0.34749,	nu11=0.18092,	dyn11=Exp)	c
+6	-86500.586322	(t1=0.02804,	nu11=0.09961,	dyn11=Lin)	m
+7	-160903.115288	(t1=0.03844,	nu11=0.67821,	dyn11=Exp)	c
+8	-183140.130351	(t1=6.43e-09,	nu11=0.11463,	dyn11=Exp)	r
+9	-183140.180789	(t1=5.37e-10,	nu11=1.24636,	dyn11=Exp)	r
+Current mean mutation rate:	 0.103369
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #16.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-515.241540	(t1=0.07854,	nu11=0.11577,	dyn11=Exp)	c
+3	-515.241540	(t1=0.07854,	nu11=0.11577,	dyn11=Exp)	c
+4	-181237.883269	(t1=0.34749,	nu11=0.05542,	dyn11=Exp)	c
+5	-183140.180757	(t1=4.34e-10,	nu11=1.24636,	dyn11=Exp)	m
+6	-183140.180945	(t1=5.37e-10,	nu11=1.24636,	dyn11=Sud)	m
+7	-212559.082061	(t1=0.03548,	nu11=1.89133,	dyn11=Lin)	r
+8	-228533.572767	(t1=0.04558,	nu11=1.55969,	dyn11=Sud)	r
+9	-240026.502616	(t1=0.34749,	nu11=1.24636,	dyn11=Exp)	c
+Current mean mutation rate:	 0.093793
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #17.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-515.241540	(t1=0.07854,	nu11=0.11577,	dyn11=Exp)	c
+4	-1672.032968	(t1=0.04174,	nu11=0.05542,	dyn11=Exp)	m
+5	-5072.060062	(t1=0.03844,	nu11=0.04549,	dyn11=Exp)	m
+6	-87972.541525	(t1=0.23944,	nu11=0.70947,	dyn11=Sud)	r
+7	-178865.397421	(t1=0.03058,	nu11=0.90696,	dyn11=Exp)	r
+8	-207903.546779	(t1=0.04558,	nu11=1.55969,	dyn11=Exp)	c
+9	-210026.495469	(t1=0.03548,	nu11=1.89133,	dyn11=Exp)	c
+Current mean mutation rate:	 0.085104
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.036 sec.
+
+
+
+Generation #18.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-1672.032968	(t1=0.04174,	nu11=0.05542,	dyn11=Exp)	c
+4	-12219.997544	(t1=0.03844,	nu11=0.03986,	dyn11=Exp)	m
+5	-171177.794509	(t1=0.00037,	nu11=0.08357,	dyn11=Sud)	r
+6	-174894.842044	(t1=0.03058,	nu11=0.90696,	dyn11=Sud)	m
+7	-177890.514642	(t1=0.03844,	nu11=0.90696,	dyn11=Exp)	c
+8	-178865.397421	(t1=0.03058,	nu11=0.90696,	dyn11=Exp)	c
+9	-203257.972890	(t1=0.09095,	nu11=1.11025,	dyn11=Sud)	r
+Current mean mutation rate:	 0.077220
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.035 sec.
+
+
+
+Generation #19.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-171880.598656	(t1=0.01293,	nu11=0.60101,	dyn11=Exp)	r
+4	-174894.842044	(t1=0.03058,	nu11=0.90696,	dyn11=Sud)	m
+5	-177890.514642	(t1=0.03844,	nu11=0.90696,	dyn11=Exp)	c
+6	-177890.514642	(t1=0.03844,	nu11=0.90696,	dyn11=Exp)	c
+7	-179335.906504	(t1=0.00037,	nu11=0.08357,	dyn11=Exp)	c
+8	-197413.156645	(t1=0.05789,	nu11=1.11025,	dyn11=Sud)	m
+9	-502879.047953	(t1=1.14881,	nu11=2.1303,	dyn11=Lin)	r
+Current mean mutation rate:	 0.070067
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #20.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-3732.197759	(t1=0.03577,	nu11=0.13287,	dyn11=Sud)	r
+5	-29960.646940	(t1=0.03844,	nu11=0.0327,	dyn11=Exp)	m
+6	-166262.361143	(t1=0.03844,	nu11=0.85037,	dyn11=Sud)	mm
+7	-174894.842044	(t1=0.03058,	nu11=0.90696,	dyn11=Sud)	c
+8	-183140.180613	(t1=4.76e-12,	nu11=0.36073,	dyn11=Lin)	r
+9	-487999.679699	(t1=1.14881,	nu11=2.1303,	dyn11=Exp)	c
+Current mean mutation rate:	 0.063576
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #21.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-1906.032491	(t1=0.03844,	nu11=0.05026,	dyn11=Exp)	m
+6	-2746.446789	(t1=0.08676,	nu11=0.10965,	dyn11=Exp)	r
+7	-12130.577934	(t1=0.02897,	nu11=0.09911,	dyn11=Sud)	mm
+8	-29960.646940	(t1=0.03844,	nu11=0.0327,	dyn11=Exp)	c
+9	-193684.521137	(t1=0.00434,	nu11=13.52118,	dyn11=Lin)	r
+Current mean mutation rate:	 0.057686
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.034 sec.
+
+
+
+Generation #22.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-18047.235096	(t1=0.03844,	nu11=0.09911,	dyn11=Exp)	c
+6	-25643.600241	(t1=0.03844,	nu11=0.0327,	dyn11=Lin)	m
+7	-41568.982531	(t1=0.03844,	nu11=0.05542,	dyn11=Lin)	m
+8	-183140.189257	(t1=8.55e-09,	nu11=1.49527,	dyn11=Sud)	r
+9	-183333.515326	(t1=0.0003,	nu11=1.2664,	dyn11=Sud)	r
+Current mean mutation rate:	 0.052342
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #23.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-41568.982531	(t1=0.03844,	nu11=0.05542,	dyn11=Lin)	c
+6	-57946.376599	(t1=0.01278,	nu11=0.05542,	dyn11=Exp)	mm
+7	-183140.176153	(t1=4.78e-10,	nu11=0.09441,	dyn11=Exp)	r
+8	-183140.185228	(t1=8.55e-09,	nu11=1.49527,	dyn11=Exp)	m
+9	-183810.351522	(t1=0.00042,	nu11=2.11249,	dyn11=Sud)	r
+Current mean mutation rate:	 0.047494
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #24.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-57946.376599	(t1=0.01278,	nu11=0.05542,	dyn11=Exp)	c
+6	-71519.474916	(t1=0.03844,	nu11=0.02466,	dyn11=Exp)	m
+7	-183135.641288	(t1=1.06e-07,	nu11=0.0665,	dyn11=Sud)	r
+8	-183140.185448	(t1=8.96e-09,	nu11=1.49527,	dyn11=Exp)	m
+9	-183147.648745	(t1=3.38e-06,	nu11=3.62776,	dyn11=Sud)	r
+Current mean mutation rate:	 0.043094
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #25.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+6	-1292.068647	(t1=0.03323,	nu11=0.05542,	dyn11=Exp)	m
+7	-183140.180628	(t1=2.54e-12,	nu11=4.64411,	dyn11=Sud)	r
+8	-183176.510016	(t1=3e-05,	nu11=1.82676,	dyn11=Sud)	r
+9	-272648.646871	(t1=0.03844,	nu11=0.04362,	dyn11=Sud)	mm
+Current mean mutation rate:	 0.039102
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #26.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-5792.182921	(t1=0.03844,	nu11=0.04473,	dyn11=Exp)	m
+5	-6966.201702	(t1=0.03844,	nu11=0.04362,	dyn11=Exp)	c
+6	-103017.742328	(t1=0.03844,	nu11=0.30117,	dyn11=Exp)	m
+7	-177850.913710	(t1=3.89842,	nu11=0.96286,	dyn11=Exp)	r
+8	-183140.043854	(t1=1.82e-07,	nu11=0.80212,	dyn11=Sud)	r
+9	-191792.181768	(t1=0.03844,	nu11=0.05542,	dyn11=Sud)	c
+Current mean mutation rate:	 0.035480
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -482.8172123283148
+Solution:		(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #27.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-5792.182921	(t1=0.03844,	nu11=0.04473,	dyn11=Exp)	c
+5	-21455.887864	(t1=0.03844,	nu11=0.10488,	dyn11=Exp)	m
+6	-103017.742328	(t1=0.03844,	nu11=0.30117,	dyn11=Exp)	c
+7	-158666.529095	(t1=3.89842,	nu11=0.05542,	dyn11=Exp)	c
+8	-183140.175486	(t1=3.74e-10,	nu11=0.18187,	dyn11=Sud)	r
+9	-194265.809102	(t1=0.00486,	nu11=10.08093,	dyn11=Lin)	r
+Current mean mutation rate:	 0.052342
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -472.6663301079534
+Solution:		(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #28.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-5792.182921	(t1=0.03844,	nu11=0.04473,	dyn11=Exp)	c
+5	-5914.065337	(t1=0.03844,	nu11=0.07707,	dyn11=Exp)	m
+6	-41568.982531	(t1=0.03844,	nu11=0.05542,	dyn11=Lin)	m
+7	-183140.178750	(t1=3.74e-10,	nu11=0.18187,	dyn11=Exp)	c
+8	-183140.227736	(t1=1.86e-08,	nu11=5.89406,	dyn11=Sud)	r
+9	-201098.769603	(t1=0.01368,	nu11=2.8456,	dyn11=Lin)	r
+Current mean mutation rate:	 0.047494
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -472.6663301079534
+Solution:		(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #29.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+1	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+3	-1385.136814	(t1=0.04118,	nu11=0.05542,	dyn11=Exp)	m
+4	-5792.182921	(t1=0.03844,	nu11=0.04473,	dyn11=Exp)	c
+5	-12062.231687	(t1=0.03844,	nu11=0.01745,	dyn11=Lin)	m
+6	-183019.142647	(t1=0.00284,	nu11=0.98603,	dyn11=Sud)	r
+7	-183111.243174	(t1=2.92e-06,	nu11=0.23507,	dyn11=Sud)	r
+8	-183140.175037	(t1=3.74e-10,	nu11=0.05542,	dyn11=Exp)	c
+9	-283957.735282	(t1=0.03844,	nu11=5.89406,	dyn11=Sud)	c
+Current mean mutation rate:	 0.043094
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -472.6663301079534
+Solution:		(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #30.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-17433.106647	(t1=0.547,	nu11=0.32229,	dyn11=Exp)	r
+6	-182397.849351	(t1=0.03844,	nu11=0.98603,	dyn11=Exp)	c
+7	-183138.023995	(t1=3e-05,	nu11=0.9575,	dyn11=Lin)	r
+8	-183140.054629	(t1=2.92e-06,	nu11=0.98603,	dyn11=Sud)	c
+9	-183140.161165	(t1=3.74e-10,	nu11=0.05542,	dyn11=Sud)	m
+Current mean mutation rate:	 0.063576
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #31.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-3003.398365	(t1=0.03697,	nu11=0.06744,	dyn11=Exp)	m
+5	-64680.286507	(t1=0.547,	nu11=0.05542,	dyn11=Exp)	c
+6	-167192.181014	(t1=0.00116,	nu11=0.1747,	dyn11=Sud)	r
+7	-171587.567866	(t1=0.00392,	nu11=0.28397,	dyn11=Exp)	r
+8	-182341.632763	(t1=0.03844,	nu11=0.98498,	dyn11=Exp)	m
+9	-183140.161165	(t1=3.74e-10,	nu11=0.05542,	dyn11=Sud)	c
+Current mean mutation rate:	 0.057686
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #32.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+2	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+4	-3253.268822	(t1=0.03697,	nu11=0.06807,	dyn11=Exp)	m
+5	-7779.583734	(t1=0.03235,	nu11=0.06744,	dyn11=Exp)	m
+6	-173225.839120	(t1=0.00124,	nu11=0.27102,	dyn11=Sud)	r
+7	-183140.175037	(t1=3.74e-10,	nu11=0.05542,	dyn11=Exp)	c
+8	-183140.179476	(t1=3.74e-10,	nu11=0.28397,	dyn11=Exp)	c
+9	-183140.180498	(t1=1.44e-10,	nu11=0.78077,	dyn11=Sud)	r
+Current mean mutation rate:	 0.052342
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #33.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+3	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	m
+4	-482.817212	(t1=0.03844,	nu11=0.05542,	dyn11=Exp)	c
+5	-544.169133	(t1=0.03525,	nu11=0.05542,	dyn11=Exp)	m
+6	-10954.704573	(t1=0.03697,	nu11=0.08337,	dyn11=Exp)	m
+7	-183134.927769	(t1=6.70e-07,	nu11=0.11439,	dyn11=Exp)	r
+8	-183140.175947	(t1=3.74e-10,	nu11=0.06807,	dyn11=Exp)	c
+9	-183140.346989	(t1=3.66e-07,	nu11=1.17502,	dyn11=Sud)	r
+Current mean mutation rate:	 0.047494
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #34.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	m
+4	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	c
+5	-129965.992499	(t1=0.03003,	nu11=0.30399,	dyn11=Lin)	r
+6	-183133.726884	(t1=8.23e-07,	nu11=0.11439,	dyn11=Exp)	m
+7	-183134.927769	(t1=6.70e-07,	nu11=0.11439,	dyn11=Exp)	c
+8	-183140.174739	(t1=3.74e-10,	nu11=0.16253,	dyn11=Sud)	mm
+9	-183140.181857	(t1=7.68e-10,	nu11=3.85557,	dyn11=Lin)	r
+Current mean mutation rate:	 0.043094
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #35.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-472.666330	(t1=0.03838,	nu11=0.05542,	dyn11=Exp)	c
+6	-3945.614851	(t1=0.04505,	nu11=0.05542,	dyn11=Exp)	m
+7	-17873.668797	(t1=0.01863,	nu11=0.01634,	dyn11=Exp)	mm
+8	-130499.705976	(t1=0.15486,	nu11=0.10824,	dyn11=Sud)	r
+9	-183087.672082	(t1=3e-05,	nu11=0.6691,	dyn11=Sud)	r
+Current mean mutation rate:	 0.039102
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #36.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-30211.157975	(t1=0.04505,	nu11=0.05542,	dyn11=Lin)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+7	-69877.185960	(t1=0.15486,	nu11=0.05542,	dyn11=Sud)	c
+8	-183138.873409	(t1=3.75e-07,	nu11=0.46678,	dyn11=Sud)	r
+9	-183140.134039	(t1=1.85e-08,	nu11=0.33122,	dyn11=Exp)	r
+Current mean mutation rate:	 0.035480
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #37.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+6	-3945.614851	(t1=0.04505,	nu11=0.05542,	dyn11=Exp)	m
+7	-183137.322713	(t1=4.48e-07,	nu11=0.14225,	dyn11=Exp)	r
+8	-183140.066934	(t1=1.85e-08,	nu11=0.33122,	dyn11=Sud)	m
+9	-183140.179983	(t1=2.60e-11,	nu11=0.03067,	dyn11=Exp)	r
+Current mean mutation rate:	 0.032193
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #38.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-2538.760042	(t1=0.03697,	nu11=0.0662,	dyn11=Exp)	m
+6	-63433.931435	(t1=0.04505,	nu11=0.03067,	dyn11=Exp)	c
+7	-183130.527620	(t1=4.44e-06,	nu11=0.36953,	dyn11=Exp)	r
+8	-183140.004696	(t1=2.86e-08,	nu11=0.33122,	dyn11=Sud)	m
+9	-183140.072717	(t1=5.51e-07,	nu11=0.88413,	dyn11=Exp)	r
+Current mean mutation rate:	 0.029211
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #39.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-2538.760042	(t1=0.03697,	nu11=0.0662,	dyn11=Exp)	c
+4	-2538.760042	(t1=0.03697,	nu11=0.0662,	dyn11=Exp)	c
+5	-63433.931435	(t1=0.04505,	nu11=0.03067,	dyn11=Exp)	c
+6	-79860.464473	(t1=0.02296,	nu11=0.05542,	dyn11=Lin)	mm
+7	-183131.748714	(t1=3.87e-06,	nu11=0.36953,	dyn11=Exp)	m
+8	-184710.531290	(t1=0.0011,	nu11=4.21106,	dyn11=Exp)	r
+9	-223428.114034	(t1=0.04862,	nu11=2.06001,	dyn11=Exp)	r
+Current mean mutation rate:	 0.026505
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.033 sec.
+
+
+
+Generation #40.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2538.760042	(t1=0.03697,	nu11=0.0662,	dyn11=Exp)	c
+5	-3945.614851	(t1=0.04505,	nu11=0.05542,	dyn11=Exp)	c
+6	-22937.566122	(t1=0.03697,	nu11=0.10328,	dyn11=Exp)	m
+7	-50776.561387	(t1=0.03697,	nu11=0.0662,	dyn11=Lin)	m
+8	-104390.357968	(t1=0.15991,	nu11=0.58977,	dyn11=Lin)	r
+9	-183239.355672	(t1=8e-05,	nu11=1.72937,	dyn11=Sud)	r
+Current mean mutation rate:	 0.024049
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #41.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-3945.614851	(t1=0.04505,	nu11=0.05542,	dyn11=Exp)	c
+4	-27574.042860	(t1=0.15991,	nu11=0.05542,	dyn11=Lin)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	m
+7	-183141.666576	(t1=1.00e-06,	nu11=3.35108,	dyn11=Lin)	r
+8	-183194.272627	(t1=8e-05,	nu11=1.72937,	dyn11=Exp)	c
+9	-256275.528373	(t1=0.0469,	nu11=2.15558,	dyn11=Sud)	r
+Current mean mutation rate:	 0.021821
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #42.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-5633.329087	(t1=0.0469,	nu11=0.05542,	dyn11=Exp)	c
+5	-30211.157975	(t1=0.04505,	nu11=0.05542,	dyn11=Lin)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+7	-146092.618247	(t1=0.03189,	nu11=0.05542,	dyn11=Sud)	m
+8	-183140.349422	(t1=1.25e-07,	nu11=1.79499,	dyn11=Sud)	r
+9	-183147.906751	(t1=7.29e-06,	nu11=1.53244,	dyn11=Sud)	r
+Current mean mutation rate:	 0.019800
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #43.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-5633.329087	(t1=0.0469,	nu11=0.05542,	dyn11=Exp)	c
+4	-5633.329087	(t1=0.0469,	nu11=0.05542,	dyn11=Exp)	c
+5	-58660.384643	(t1=0.04505,	nu11=0.11462,	dyn11=Lin)	m
+6	-182405.182825	(t1=0.00196,	nu11=0.88925,	dyn11=Sud)	r
+7	-183140.273204	(t1=1.25e-07,	nu11=1.79499,	dyn11=Exp)	c
+8	-183140.308154	(t1=9.44e-08,	nu11=1.79499,	dyn11=Sud)	m
+9	-183147.899648	(t1=2e-05,	nu11=1.17763,	dyn11=Sud)	r
+Current mean mutation rate:	 0.017966
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #44.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2041.995567	(t1=0.0424,	nu11=0.05542,	dyn11=Exp)	m
+5	-8706.254919	(t1=0.03697,	nu11=0.07935,	dyn11=Exp)	m
+6	-73175.724555	(t1=0.0636,	nu11=0.30614,	dyn11=Exp)	r
+7	-183140.144760	(t1=9.44e-08,	nu11=0.88925,	dyn11=Sud)	c
+8	-183239.709659	(t1=4e-05,	nu11=5.64247,	dyn11=Sud)	r
+9	-209113.759898	(t1=0.03697,	nu11=1.79499,	dyn11=Exp)	c
+Current mean mutation rate:	 0.016301
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #45.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	m
+5	-183138.772021	(t1=9.44e-08,	nu11=0.05542,	dyn11=Exp)	c
+6	-183221.297138	(t1=3e-05,	nu11=5.64247,	dyn11=Sud)	m
+7	-183347.311338	(t1=7e-05,	nu11=20.6243,	dyn11=Sud)	r
+8	-183447.422534	(t1=0.00077,	nu11=1.33398,	dyn11=Exp)	r
+9	-242562.780385	(t1=0.03697,	nu11=5.64247,	dyn11=Exp)	c
+Current mean mutation rate:	 0.014791
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #46.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-37965.981695	(t1=0.00458,	nu11=0.054,	dyn11=Sud)	r
+6	-183211.632224	(t1=4e-05,	nu11=2.95708,	dyn11=Sud)	mm
+7	-183289.416027	(t1=7e-05,	nu11=20.6243,	dyn11=Exp)	c
+8	-186218.226417	(t1=0.0013,	nu11=12.19871,	dyn11=Lin)	r
+9	-211081.804935	(t1=0.0174,	nu11=5.64247,	dyn11=Exp)	m
+Current mean mutation rate:	 0.013421
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #47.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+5	-151950.931048	(t1=0.03257,	nu11=0.51575,	dyn11=Lin)	r
+6	-156040.635023	(t1=0.00458,	nu11=0.054,	dyn11=Lin)	m
+7	-183141.842821	(t1=1.58e-06,	nu11=2.50854,	dyn11=Exp)	r
+8	-183211.632224	(t1=4e-05,	nu11=2.95708,	dyn11=Sud)	c
+9	-263239.234031	(t1=0.03697,	nu11=20.6243,	dyn11=Exp)	c
+Current mean mutation rate:	 0.012178
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #48.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-1665.658615	(t1=0.03257,	nu11=0.05542,	dyn11=Exp)	c
+5	-6264.563772	(t1=0.06894,	nu11=0.05542,	dyn11=Lin)	m
+6	-148423.232605	(t1=0.03697,	nu11=0.51575,	dyn11=Lin)	c
+7	-162137.675875	(t1=0.01665,	nu11=0.44899,	dyn11=Lin)	r
+8	-183182.238020	(t1=4e-05,	nu11=2.95708,	dyn11=Exp)	m
+9	-241074.903701	(t1=0.06338,	nu11=1.52498,	dyn11=Sud)	r
+Current mean mutation rate:	 0.011050
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #49.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+4	-126457.536726	(t1=0.06894,	nu11=0.51575,	dyn11=Lin)	c
+5	-183188.331334	(t1=4e-05,	nu11=2.95708,	dyn11=Lin)	m
+6	-195169.681848	(t1=0.34695,	nu11=1.04915,	dyn11=Exp)	r
+7	-202593.466858	(t1=0.03697,	nu11=1.52498,	dyn11=Exp)	c
+8	-241074.903701	(t1=0.06338,	nu11=1.52498,	dyn11=Sud)	c
+9	-1801209.430646	(t1=1.14981,	nu11=7.56887,	dyn11=Sud)	r
+Current mean mutation rate:	 0.010026
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #50.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-6264.563772	(t1=0.06894,	nu11=0.05542,	dyn11=Lin)	c
+6	-48229.291342	(t1=0.03697,	nu11=0.02721,	dyn11=Exp)	m
+7	-183331.102480	(t1=0.00014,	nu11=3.1145,	dyn11=Lin)	r
+8	-185623.021930	(t1=0.00483,	nu11=1.46957,	dyn11=Exp)	r
+9	-1071955.918876	(t1=1.14981,	nu11=3.78288,	dyn11=Sud)	m
+Current mean mutation rate:	 0.009097
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #51.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2170.176902	(t1=0.06894,	nu11=0.04186,	dyn11=Lin)	m
+5	-48229.291342	(t1=0.03697,	nu11=0.02721,	dyn11=Exp)	c
+6	-95201.047925	(t1=2.3046,	nu11=0.50128,	dyn11=Exp)	r
+7	-161552.928766	(t1=1.01538,	nu11=0.92682,	dyn11=Exp)	r
+8	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	m
+9	-802160.613476	(t1=1.14981,	nu11=3.78288,	dyn11=Exp)	c
+Current mean mutation rate:	 0.008254
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #52.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-771.337894	(t1=0.03697,	nu11=0.05985,	dyn11=Exp)	m
+5	-40273.034185	(t1=0.06894,	nu11=0.05542,	dyn11=Exp)	c
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+7	-48229.291342	(t1=0.03697,	nu11=0.02721,	dyn11=Exp)	c
+8	-173576.223684	(t1=0.00761,	nu11=0.46629,	dyn11=Lin)	r
+9	-234688.275919	(t1=0.02487,	nu11=6.75669,	dyn11=Lin)	r
+Current mean mutation rate:	 0.007490
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #53.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+5	-140589.049523	(t1=0.00761,	nu11=0.05542,	dyn11=Lin)	c
+6	-147463.223878	(t1=0.00341,	nu11=0.2084,	dyn11=Sud)	r
+7	-172057.336824	(t1=0.00761,	nu11=0.46629,	dyn11=Exp)	m
+8	-183390.718539	(t1=0.00035,	nu11=1.67148,	dyn11=Lin)	r
+9	-260136.360612	(t1=0.03697,	nu11=6.75669,	dyn11=Lin)	c
+Current mean mutation rate:	 0.006796
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #54.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-42251.087239	(t1=0.28566,	nu11=0.54928,	dyn11=Sud)	r
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+6	-61284.165427	(t1=0.02955,	nu11=0.05542,	dyn11=Lin)	m
+7	-101077.167441	(t1=0.03697,	nu11=0.2084,	dyn11=Lin)	c
+8	-183140.180526	(t1=2.23678,	nu11=0.08919,	dyn11=Sud)	r
+9	-183372.620625	(t1=0.00035,	nu11=1.67148,	dyn11=Exp)	m
+Current mean mutation rate:	 0.006166
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #55.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-26944.377579	(t1=1.26283,	nu11=0.1967,	dyn11=Lin)	r
+5	-101077.167441	(t1=0.03697,	nu11=0.2084,	dyn11=Lin)	c
+6	-116544.707633	(t1=0.03697,	nu11=0.54928,	dyn11=Sud)	c
+7	-175381.558602	(t1=0.61716,	nu11=0.08919,	dyn11=Sud)	m
+8	-183356.104789	(t1=0.00033,	nu11=1.67148,	dyn11=Exp)	m
+9	-354144.178548	(t1=1.9741,	nu11=1.85718,	dyn11=Sud)	r
+Current mean mutation rate:	 0.005595
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #56.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-9864.614596	(t1=0.03697,	nu11=0.2084,	dyn11=Sud)	m
+4	-69368.244041	(t1=4.07669,	nu11=0.02078,	dyn11=Lin)	r
+5	-108068.567606	(t1=0.04401,	nu11=0.54928,	dyn11=Sud)	m
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+8	-232525.932159	(t1=0.03697,	nu11=1.85718,	dyn11=Sud)	c
+9	-1717349.714946	(t1=0.94353,	nu11=7.62873,	dyn11=Sud)	r
+Current mean mutation rate:	 0.005077
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #57.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-706.785621	(t1=0.03465,	nu11=0.05542,	dyn11=Exp)	m
+5	-6591.097652	(t1=0.0403,	nu11=0.2084,	dyn11=Sud)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+8	-183130.105416	(t1=1.78e-06,	nu11=0.35017,	dyn11=Sud)	r
+9	-183143.085370	(t1=1.28e-06,	nu11=9.93267,	dyn11=Lin)	r
+Current mean mutation rate:	 0.004607
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #58.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-360.633634	(t1=0.0366,	nu11=0.05542,	dyn11=Exp)	m
+4	-588.862447	(t1=0.03507,	nu11=0.05542,	dyn11=Exp)	m
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+7	-183143.652475	(t1=1.34e-06,	nu11=6.67583,	dyn11=Sud)	r
+8	-202929.197220	(t1=0.0403,	nu11=0.05542,	dyn11=Sud)	c
+9	-211082.812676	(t1=0.01546,	nu11=4.83866,	dyn11=Lin)	r
+Current mean mutation rate:	 0.004180
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #59.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+5	-48405.624288	(t1=0.03507,	nu11=0.05542,	dyn11=Lin)	c
+6	-183142.496806	(t1=8.93e-07,	nu11=6.67583,	dyn11=Sud)	m
+7	-183143.652475	(t1=1.34e-06,	nu11=6.67583,	dyn11=Sud)	c
+8	-183308.220259	(t1=0.00015,	nu11=1.5592,	dyn11=Sud)	r
+9	-611834.541503	(t1=0.32545,	nu11=2.68539,	dyn11=Sud)	r
+Current mean mutation rate:	 0.003793
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #60.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-25540.001245	(t1=0.03507,	nu11=0.02546,	dyn11=Lin)	m
+5	-181326.831232	(t1=3.1182,	nu11=0.52091,	dyn11=Sud)	r
+6	-183093.753932	(t1=8.93e-07,	nu11=0.05542,	dyn11=Sud)	c
+7	-183142.589632	(t1=1.34e-06,	nu11=2.43862,	dyn11=Sud)	m
+8	-220952.455235	(t1=0.02308,	nu11=2.20824,	dyn11=Sud)	r
+9	-282815.899921	(t1=0.03697,	nu11=6.67583,	dyn11=Sud)	c
+Current mean mutation rate:	 0.003441
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #61.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-2326.758322	(t1=0.03697,	nu11=0.04737,	dyn11=Exp)	m
+4	-11682.879832	(t1=0.02489,	nu11=0.05542,	dyn11=Exp)	m
+5	-74057.565439	(t1=0.02308,	nu11=0.05542,	dyn11=Sud)	c
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+7	-183141.671199	(t1=8.93e-07,	nu11=2.20824,	dyn11=Sud)	c
+8	-187042.410461	(t1=0.00307,	nu11=3.32418,	dyn11=Exp)	r
+9	-188178.961410	(t1=0.00259,	nu11=2.75489,	dyn11=Sud)	r
+Current mean mutation rate:	 0.003122
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #62.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-3711.925586	(t1=0.03697,	nu11=0.06919,	dyn11=Exp)	m
+4	-15834.628764	(t1=0.02308,	nu11=0.05542,	dyn11=Exp)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-142121.228382	(t1=0.00307,	nu11=0.05542,	dyn11=Exp)	c
+7	-183093.753932	(t1=8.93e-07,	nu11=0.05542,	dyn11=Sud)	c
+8	-183140.180621	(t1=7.96e-12,	nu11=0.99584,	dyn11=Exp)	r
+9	-324332.041284	(t1=0.45127,	nu11=1.39657,	dyn11=Sud)	r
+Current mean mutation rate:	 0.002833
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #63.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-13609.689353	(t1=0.03697,	nu11=0.01689,	dyn11=Lin)	m
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+5	-79071.066207	(t1=0.6852,	nu11=0.57837,	dyn11=Sud)	r
+6	-182698.411976	(t1=0.00018,	nu11=0.2717,	dyn11=Lin)	r
+7	-182928.464888	(t1=0.03697,	nu11=0.99584,	dyn11=Exp)	c
+8	-183093.753932	(t1=8.93e-07,	nu11=0.05542,	dyn11=Sud)	c
+9	-324332.041284	(t1=0.45127,	nu11=1.39657,	dyn11=Sud)	c
+Current mean mutation rate:	 0.002571
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #64.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-777.395764	(t1=0.03964,	nu11=0.05542,	dyn11=Exp)	m
+5	-45257.246530	(t1=0.01838,	nu11=0.19203,	dyn11=Sud)	r
+6	-147534.498462	(t1=0.03697,	nu11=0.01689,	dyn11=Exp)	m
+7	-151761.618114	(t1=0.03697,	nu11=0.57837,	dyn11=Exp)	c
+8	-183140.180628	(t1=4.70e-12,	nu11=1.94097,	dyn11=Sud)	r
+9	-281543.472591	(t1=0.45127,	nu11=1.39657,	dyn11=Exp)	c
+Current mean mutation rate:	 0.002333
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #65.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-29796.059588	(t1=0.03697,	nu11=0.11458,	dyn11=Exp)	m
+6	-109783.619887	(t1=0.03697,	nu11=0.01964,	dyn11=Exp)	m
+7	-183140.180625	(t1=4.70e-12,	nu11=1.94097,	dyn11=Exp)	c
+8	-183397.421291	(t1=0.00018,	nu11=1.90095,	dyn11=Sud)	r
+9	-183473.261687	(t1=0.00061,	nu11=1.50973,	dyn11=Exp)	r
+Current mean mutation rate:	 0.002117
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #66.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2145.677931	(t1=0.04257,	nu11=0.05542,	dyn11=Exp)	m
+5	-10305.023873	(t1=0.05103,	nu11=0.05542,	dyn11=Exp)	m
+6	-109783.619887	(t1=0.03697,	nu11=0.01964,	dyn11=Exp)	c
+7	-183148.048531	(t1=3.34e-06,	nu11=11.80307,	dyn11=Lin)	r
+8	-183282.472956	(t1=0.00018,	nu11=1.90095,	dyn11=Exp)	c
+9	-1725435.877854	(t1=2.44159,	nu11=12.90576,	dyn11=Exp)	r
+Current mean mutation rate:	 0.001920
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #67.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2145.677931	(t1=0.04257,	nu11=0.05542,	dyn11=Exp)	c
+5	-10305.023873	(t1=0.05103,	nu11=0.05542,	dyn11=Exp)	c
+6	-98104.518144	(t1=0.05103,	nu11=0.02934,	dyn11=Exp)	m
+7	-158432.370936	(t1=0.75072,	nu11=0.91842,	dyn11=Sud)	r
+8	-183296.764526	(t1=0.0002,	nu11=1.90095,	dyn11=Exp)	m
+9	-284940.645806	(t1=4.54782,	nu11=2.53904,	dyn11=Sud)	r
+Current mean mutation rate:	 0.001743
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #68.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-2145.677931	(t1=0.04257,	nu11=0.05542,	dyn11=Exp)	c
+4	-17536.691393	(t1=0.02242,	nu11=0.05542,	dyn11=Exp)	m
+5	-37832.149441	(t1=0.03697,	nu11=0.02934,	dyn11=Exp)	c
+6	-75988.858864	(t1=0.03697,	nu11=0.2086,	dyn11=Exp)	m
+7	-98104.518144	(t1=0.05103,	nu11=0.02934,	dyn11=Exp)	c
+8	-182212.081386	(t1=2e-05,	nu11=0.06845,	dyn11=Sud)	r
+9	-189128.954136	(t1=0.00233,	nu11=6.31691,	dyn11=Sud)	r
+Current mean mutation rate:	 0.001581
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #69.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-11896.578065	(t1=0.02478,	nu11=0.05542,	dyn11=Exp)	m
+5	-20707.757231	(t1=0.03208,	nu11=0.02934,	dyn11=Exp)	m
+6	-25151.982469	(t1=0.30144,	nu11=0.40544,	dyn11=Sud)	r
+7	-54054.787807	(t1=1.38404,	nu11=0.12682,	dyn11=Exp)	r
+8	-60592.900542	(t1=0.04257,	nu11=0.02934,	dyn11=Exp)	c
+9	-254292.581292	(t1=0.04257,	nu11=6.31691,	dyn11=Exp)	c
+Current mean mutation rate:	 0.001435
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #70.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-834.165424	(t1=0.03982,	nu11=0.05542,	dyn11=Exp)	m
+6	-2145.677931	(t1=0.04257,	nu11=0.05542,	dyn11=Exp)	c
+7	-33862.248729	(t1=1.38404,	nu11=0.12682,	dyn11=Lin)	m
+8	-141548.218940	(t1=0.01831,	nu11=0.24612,	dyn11=Lin)	r
+9	-183140.177582	(t1=1.11e-10,	nu11=0.02713,	dyn11=Exp)	r
+Current mean mutation rate:	 0.001302
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #71.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-1212.574561	(t1=0.03697,	nu11=0.04993,	dyn11=Exp)	m
+5	-17740.304861	(t1=0.05628,	nu11=0.05542,	dyn11=Exp)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+7	-120564.828780	(t1=0.01831,	nu11=0.12682,	dyn11=Lin)	c
+8	-218421.689199	(t1=0.01491,	nu11=4.3004,	dyn11=Sud)	r
+9	-296121.863738	(t1=4.72047,	nu11=1.79197,	dyn11=Exp)	r
+Current mean mutation rate:	 0.001181
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #72.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-737.933608	(t1=0.03951,	nu11=0.05542,	dyn11=Exp)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+7	-85847.708539	(t1=0.03697,	nu11=0.23572,	dyn11=Exp)	m
+8	-103334.963536	(t1=0.72938,	nu11=0.22989,	dyn11=Sud)	r
+9	-183261.527506	(t1=5e-05,	nu11=4.15674,	dyn11=Sud)	r
+Current mean mutation rate:	 0.001072
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #73.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-3491.440320	(t1=0.04449,	nu11=0.05542,	dyn11=Exp)	m
+6	-77999.213957	(t1=0.03697,	nu11=0.21385,	dyn11=Exp)	m
+7	-85847.708539	(t1=0.03697,	nu11=0.23572,	dyn11=Exp)	c
+8	-183140.185830	(t1=6.08e-09,	nu11=1.39051,	dyn11=Sud)	r
+9	-763699.838684	(t1=0.19002,	nu11=30.86375,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000972
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #74.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-3491.440320	(t1=0.04449,	nu11=0.05542,	dyn11=Exp)	c
+5	-9971.163932	(t1=0.05076,	nu11=0.05542,	dyn11=Exp)	m
+6	-74990.201905	(t1=0.04348,	nu11=0.23572,	dyn11=Exp)	m
+7	-85847.708539	(t1=0.03697,	nu11=0.23572,	dyn11=Exp)	c
+8	-183643.002355	(t1=0.01776,	nu11=1.01978,	dyn11=Lin)	r
+9	-186458.972570	(t1=0.01359,	nu11=1.18583,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000882
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #75.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-9971.163932	(t1=0.05076,	nu11=0.05542,	dyn11=Exp)	c
+5	-9971.163932	(t1=0.05076,	nu11=0.05542,	dyn11=Exp)	c
+6	-79802.131387	(t1=0.0405,	nu11=0.23572,	dyn11=Exp)	m
+7	-87312.021969	(t1=0.03615,	nu11=0.23572,	dyn11=Exp)	m
+8	-183140.824424	(t1=2.84e-07,	nu11=3.888,	dyn11=Sud)	r
+9	-183144.471542	(t1=2.03e-06,	nu11=3.26628,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000801
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #76.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-395.130004	(t1=0.03615,	nu11=0.05542,	dyn11=Exp)	c
+5	-14337.831076	(t1=0.0405,	nu11=0.23572,	dyn11=Sud)	m
+6	-86830.874005	(t1=0.03697,	nu11=0.23862,	dyn11=Exp)	m
+7	-87312.021969	(t1=0.03615,	nu11=0.23572,	dyn11=Exp)	c
+8	-124251.063841	(t1=0.01449,	nu11=0.18552,	dyn11=Exp)	r
+9	-181803.472556	(t1=0.00134,	nu11=0.75245,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000726
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #77.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-26037.140126	(t1=0.06798,	nu11=0.18833,	dyn11=Exp)	r
+4	-27534.956302	(t1=0.03697,	nu11=0.03203,	dyn11=Exp)	m
+5	-85847.708539	(t1=0.03697,	nu11=0.23572,	dyn11=Exp)	c
+6	-85847.708539	(t1=0.03697,	nu11=0.23572,	dyn11=Exp)	c
+7	-95254.300366	(t1=0.03615,	nu11=0.26056,	dyn11=Exp)	m
+8	-124251.063841	(t1=0.01449,	nu11=0.18552,	dyn11=Exp)	c
+9	-183141.015194	(t1=5.84e-07,	nu11=4.19462,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000659
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #78.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-29398.209058	(t1=0.03615,	nu11=0.26056,	dyn11=Sud)	m
+4	-85847.708539	(t1=0.03697,	nu11=0.23572,	dyn11=Exp)	c
+5	-93864.355363	(t1=0.03697,	nu11=0.26056,	dyn11=Exp)	c
+6	-183140.726578	(t1=5.84e-07,	nu11=2.18903,	dyn11=Exp)	m
+7	-185991.674621	(t1=0.00281,	nu11=2.39752,	dyn11=Exp)	r
+8	-235665.493533	(t1=0.03697,	nu11=4.19462,	dyn11=Exp)	c
+9	-345480.777714	(t1=0.15263,	nu11=3.02194,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000598
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #79.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-178799.167753	(t1=0.00202,	nu11=0.58235,	dyn11=Sud)	r
+5	-183140.718920	(t1=5.84e-07,	nu11=2.15819,	dyn11=Exp)	m
+6	-183614.463927	(t1=0.00064,	nu11=1.71288,	dyn11=Lin)	r
+7	-189500.987751	(t1=0.15263,	nu11=0.05542,	dyn11=Exp)	c
+8	-207249.704348	(t1=0.01689,	nu11=4.19462,	dyn11=Exp)	m
+9	-226730.568994	(t1=0.03697,	nu11=3.02194,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000543
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #80.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-10333.319888	(t1=0.03697,	nu11=0.08228,	dyn11=Exp)	m
+5	-18000.458690	(t1=0.22754,	nu11=0.40261,	dyn11=Sud)	r
+6	-36827.107196	(t1=0.01689,	nu11=0.05542,	dyn11=Exp)	c
+7	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+8	-183139.755104	(t1=1.80e-07,	nu11=0.27647,	dyn11=Lin)	r
+9	-215877.898908	(t1=0.03697,	nu11=2.15819,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000492
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #81.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-13462.393411	(t1=0.03697,	nu11=0.03753,	dyn11=Exp)	m
+6	-23989.922067	(t1=0.02026,	nu11=0.05542,	dyn11=Exp)	m
+7	-36827.107196	(t1=0.01689,	nu11=0.05542,	dyn11=Exp)	c
+8	-182536.067659	(t1=0.00036,	nu11=0.44057,	dyn11=Exp)	r
+9	-303452.451132	(t1=3.89486,	nu11=1.72682,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000447
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #82.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-17622.727747	(t1=0.02239,	nu11=0.05542,	dyn11=Exp)	m
+6	-33327.349393	(t1=0.04485,	nu11=0.03753,	dyn11=Exp)	m
+7	-36827.107196	(t1=0.01689,	nu11=0.05542,	dyn11=Exp)	c
+8	-183140.179335	(t1=1.10e-09,	nu11=0.50312,	dyn11=Lin)	r
+9	-195970.455987	(t1=0.0125,	nu11=2.45428,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000405
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #83.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-3780.595191	(t1=0.04485,	nu11=0.05542,	dyn11=Exp)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-97313.040949	(t1=0.03697,	nu11=0.27215,	dyn11=Exp)	m
+7	-100584.334561	(t1=0.01689,	nu11=0.05542,	dyn11=Lin)	c
+8	-164442.709880	(t1=0.06499,	nu11=0.80423,	dyn11=Exp)	r
+9	-186324.505704	(t1=0.00285,	nu11=2.35309,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000368
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #84.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	m
+7	-183140.175274	(t1=1.01e-10,	nu11=0.05431,	dyn11=Sud)	r
+8	-183163.841301	(t1=3e-05,	nu11=1.802,	dyn11=Exp)	r
+9	-186324.505704	(t1=0.00285,	nu11=2.35309,	dyn11=Lin)	c
+Current mean mutation rate:	 0.000334
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #85.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-5963.524579	(t1=0.03697,	nu11=0.04272,	dyn11=Exp)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+7	-183140.175896	(t1=8.90e-11,	nu11=0.05431,	dyn11=Sud)	m
+8	-183140.180612	(t1=2.92e-11,	nu11=0.82246,	dyn11=Exp)	r
+9	-183407.484159	(t1=0.00027,	nu11=2.29211,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000303
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #86.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-8819.586898	(t1=0.03697,	nu11=0.04037,	dyn11=Exp)	m
+6	-183123.157376	(t1=6.97e-06,	nu11=0.26729,	dyn11=Lin)	r
+7	-183140.166477	(t1=8.90e-11,	nu11=0.01883,	dyn11=Sud)	m
+8	-183140.175896	(t1=8.90e-11,	nu11=0.05431,	dyn11=Sud)	c
+9	-183152.740886	(t1=1e-05,	nu11=3.2008,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000275
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.032 sec.
+
+
+
+Generation #87.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+7	-183111.201524	(t1=1e-05,	nu11=0.29953,	dyn11=Exp)	r
+8	-183140.175809	(t1=4.57e-09,	nu11=0.56715,	dyn11=Exp)	r
+9	-183152.740886	(t1=1e-05,	nu11=3.2008,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000249
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #88.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+5	-160672.116123	(t1=0.00144,	nu11=0.15541,	dyn11=Sud)	r
+6	-182990.006605	(t1=1e-05,	nu11=0.05542,	dyn11=Exp)	c
+7	-183140.173394	(t1=4.57e-09,	nu11=0.45602,	dyn11=Exp)	m
+8	-183152.740886	(t1=1e-05,	nu11=3.2008,	dyn11=Exp)	c
+9	-183638.505018	(t1=0.00025,	nu11=2.79625,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000226
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #89.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2758.413168	(t1=0.0435,	nu11=0.05542,	dyn11=Exp)	m
+5	-22264.948690	(t1=0.03697,	nu11=0.03375,	dyn11=Exp)	m
+6	-83303.291682	(t1=0.89398,	nu11=0.65395,	dyn11=Exp)	r
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+8	-198861.527543	(t1=0.00634,	nu11=5.18585,	dyn11=Sud)	r
+9	-228406.643043	(t1=0.03697,	nu11=3.2008,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000205
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #90.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-2758.413168	(t1=0.0435,	nu11=0.05542,	dyn11=Exp)	c
+6	-29167.475848	(t1=0.03697,	nu11=0.03375,	dyn11=Lin)	m
+7	-182099.355559	(t1=0.00027,	nu11=0.44048,	dyn11=Sud)	r
+8	-183702.376908	(t1=0.00066,	nu11=1.386,	dyn11=Sud)	r
+9	-324535.212550	(t1=0.03697,	nu11=0.03619,	dyn11=Sud)	m
+Current mean mutation rate:	 0.000186
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #91.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+4	-173483.797418	(t1=0.00066,	nu11=0.05542,	dyn11=Exp)	c
+5	-182689.280129	(t1=0.00027,	nu11=0.44048,	dyn11=Exp)	m
+6	-182860.796281	(t1=0.0004,	nu11=0.81379,	dyn11=Sud)	r
+7	-183451.847772	(t1=0.00066,	nu11=1.386,	dyn11=Lin)	c
+8	-185557.395886	(t1=0.00085,	nu11=15.57609,	dyn11=Sud)	r
+9	-220101.827171	(t1=0.0435,	nu11=0.05542,	dyn11=Sud)	m
+Current mean mutation rate:	 0.000169
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #92.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-539.108611	(t1=0.03873,	nu11=0.05542,	dyn11=Exp)	m
+5	-1190.962974	(t1=0.04075,	nu11=0.05542,	dyn11=Exp)	m
+6	-173483.797418	(t1=0.00066,	nu11=0.05542,	dyn11=Exp)	c
+7	-183140.179545	(t1=5.40e-10,	nu11=0.33066,	dyn11=Lin)	r
+8	-183144.299621	(t1=2.93e-06,	nu11=4.0525,	dyn11=Exp)	r
+9	-184841.436249	(t1=0.00085,	nu11=15.57609,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000153
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #93.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-539.108611	(t1=0.03873,	nu11=0.05542,	dyn11=Exp)	c
+6	-182856.440257	(t1=7e-05,	nu11=0.20935,	dyn11=Exp)	r
+7	-184465.485375	(t1=0.00066,	nu11=15.57609,	dyn11=Exp)	m
+8	-193585.103478	(t1=0.03873,	nu11=0.05542,	dyn11=Sud)	m
+9	-217918.982019	(t1=0.0172,	nu11=6.37473,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000139
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #94.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-476.050816	(t1=0.03697,	nu11=0.05327,	dyn11=Exp)	m
+6	-539.108611	(t1=0.03873,	nu11=0.05542,	dyn11=Exp)	m
+7	-178093.987111	(t1=0.00112,	nu11=0.40028,	dyn11=Sud)	r
+8	-183238.108851	(t1=0.00016,	nu11=1.60607,	dyn11=Exp)	r
+9	-217918.982019	(t1=0.0172,	nu11=6.37473,	dyn11=Lin)	c
+Current mean mutation rate:	 0.000126
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #95.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-1922.397817	(t1=0.0422,	nu11=0.05542,	dyn11=Exp)	m
+6	-180799.322183	(t1=0.00016,	nu11=0.05542,	dyn11=Exp)	c
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	m
+8	-212208.861348	(t1=3.82358,	nu11=1.59515,	dyn11=Sud)	r
+9	-522788.144283	(t1=0.12343,	nu11=17.26557,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000115
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #96.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-69579.402009	(t1=0.0422,	nu11=0.21569,	dyn11=Exp)	m
+5	-156096.791500	(t1=0.00115,	nu11=0.10807,	dyn11=Sud)	r
+6	-175095.415861	(t1=0.00016,	nu11=0.05542,	dyn11=Sud)	m
+7	-180799.322183	(t1=0.00016,	nu11=0.05542,	dyn11=Exp)	c
+8	-183143.690451	(t1=6.72e-06,	nu11=1.20684,	dyn11=Sud)	r
+9	-261103.199440	(t1=0.03697,	nu11=17.26557,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000104
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #97.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-3257.356434	(t1=0.03697,	nu11=0.06808,	dyn11=Exp)	m
+4	-6865.251050	(t1=0.0422,	nu11=0.21569,	dyn11=Sud)	c
+5	-11325.713633	(t1=0.03697,	nu11=0.03872,	dyn11=Exp)	m
+6	-78690.995906	(t1=0.03697,	nu11=0.21569,	dyn11=Exp)	c
+7	-156096.791500	(t1=0.00115,	nu11=0.10807,	dyn11=Sud)	c
+8	-183140.178686	(t1=2.94e-10,	nu11=0.31663,	dyn11=Sud)	r
+9	-186472.295393	(t1=0.00309,	nu11=2.59062,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000094
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #98.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-14354.610632	(t1=0.03697,	nu11=0.08917,	dyn11=Exp)	m
+5	-22838.022986	(t1=0.03697,	nu11=0.10807,	dyn11=Sud)	c
+6	-78690.995906	(t1=0.03697,	nu11=0.21569,	dyn11=Exp)	c
+7	-155002.610944	(t1=0.11368,	nu11=0.88131,	dyn11=Sud)	r
+8	-183143.716690	(t1=2.45e-06,	nu11=1.90098,	dyn11=Sud)	r
+9	-186527.079922	(t1=0.00309,	nu11=2.64677,	dyn11=Exp)	m
+Current mean mutation rate:	 0.000086
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #99.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-32853.894768	(t1=0.03697,	nu11=0.11973,	dyn11=Exp)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+8	-183078.921712	(t1=9.67e-06,	nu11=0.05447,	dyn11=Lin)	r
+9	-183102.606989	(t1=2e-05,	nu11=0.57135,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000078
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #100.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+4	-64329.863899	(t1=0.03697,	nu11=0.08447,	dyn11=Sud)	m
+5	-182288.183114	(t1=2e-05,	nu11=0.05542,	dyn11=Sud)	c
+6	-182993.833062	(t1=9.67e-06,	nu11=0.05447,	dyn11=Exp)	c
+7	-183078.386124	(t1=3e-05,	nu11=0.57135,	dyn11=Sud)	m
+8	-183140.942459	(t1=3.41e-07,	nu11=9.33702,	dyn11=Lin)	r
+9	-183970.939215	(t1=0.00169,	nu11=1.43792,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000070
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #101.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-75566.172175	(t1=0.01446,	nu11=0.21908,	dyn11=Sud)	r
+4	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+5	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+6	-183044.404932	(t1=3e-05,	nu11=0.46235,	dyn11=Sud)	m
+7	-183138.407262	(t1=2.01e-07,	nu11=0.10054,	dyn11=Exp)	r
+8	-183141.109867	(t1=3.41e-07,	nu11=9.33702,	dyn11=Sud)	c
+9	-184041.054428	(t1=0.00184,	nu11=1.43792,	dyn11=Exp)	m
+Current mean mutation rate:	 0.000064
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #102.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-9673.927482	(t1=0.03697,	nu11=0.08111,	dyn11=Exp)	m
+5	-41992.293083	(t1=0.02307,	nu11=0.21908,	dyn11=Sud)	m
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+8	-183140.480401	(t1=2.02e-07,	nu11=4.60697,	dyn11=Exp)	r
+9	-186472.441299	(t1=2.7162,	nu11=1.01718,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000058
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #103.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+7	-183140.393727	(t1=1.43e-07,	nu11=4.60697,	dyn11=Exp)	m
+8	-232012.476810	(t1=0.04683,	nu11=1.60093,	dyn11=Sud)	r
+9	-429729.409774	(t1=0.12235,	nu11=6.35702,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000053
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #104.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-28093.406762	(t1=0.09739,	nu11=0.19707,	dyn11=Sud)	r
+5	-31014.710258	(t1=0.03697,	nu11=0.11662,	dyn11=Exp)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+7	-222522.443016	(t1=0.03697,	nu11=1.60093,	dyn11=Sud)	c
+8	-429729.409774	(t1=0.12235,	nu11=6.35702,	dyn11=Lin)	c
+9	-741244.202749	(t1=0.88207,	nu11=3.61472,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000048
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #105.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-24390.315691	(t1=0.03697,	nu11=0.02808,	dyn11=Lin)	m
+5	-153214.062089	(t1=0.35848,	nu11=0.88346,	dyn11=Lin)	r
+6	-180314.522866	(t1=8e-05,	nu11=0.0777,	dyn11=Sud)	r
+7	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+8	-245058.878730	(t1=0.03697,	nu11=6.35702,	dyn11=Exp)	c
+9	-1018310.683377	(t1=0.88207,	nu11=3.61472,	dyn11=Sud)	m
+Current mean mutation rate:	 0.000043
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #106.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-24390.315691	(t1=0.03697,	nu11=0.02808,	dyn11=Lin)	c
+5	-183139.996835	(t1=3.02e-09,	nu11=0.04765,	dyn11=Sud)	r
+6	-183140.180433	(t1=1.19e-10,	nu11=0.45629,	dyn11=Exp)	r
+7	-224238.040701	(t1=0.02457,	nu11=6.35702,	dyn11=Exp)	m
+8	-245058.878730	(t1=0.03697,	nu11=6.35702,	dyn11=Exp)	c
+9	-264282.112003	(t1=0.03697,	nu11=22.61991,	dyn11=Exp)	m
+Current mean mutation rate:	 0.000039
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #107.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-12351.656158	(t1=0.02457,	nu11=0.05542,	dyn11=Exp)	c
+5	-104500.990536	(t1=0.03697,	nu11=0.0201,	dyn11=Exp)	m
+6	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+7	-183140.180926	(t1=1.46e-10,	nu11=3.1592,	dyn11=Sud)	r
+8	-183143.421468	(t1=1.13e-06,	nu11=16.70418,	dyn11=Sud)	r
+9	-206896.043095	(t1=0.02457,	nu11=2.32462,	dyn11=Exp)	m
+Current mean mutation rate:	 0.000036
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #108.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-489.546805	(t1=0.03848,	nu11=0.05542,	dyn11=Exp)	m
+5	-2791.507426	(t1=0.03105,	nu11=0.05542,	dyn11=Exp)	m
+6	-12351.656158	(t1=0.02457,	nu11=0.05542,	dyn11=Exp)	c
+7	-183211.971151	(t1=3e-05,	nu11=7.94793,	dyn11=Sud)	r
+8	-185590.442683	(t1=0.01047,	nu11=1.17569,	dyn11=Lin)	r
+9	-260686.196630	(t1=0.03697,	nu11=16.70418,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000032
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #109.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-986.508685	(t1=0.03105,	nu11=0.05034,	dyn11=Exp)	m
+4	-1862.917441	(t1=0.03697,	nu11=0.0483,	dyn11=Exp)	m
+5	-2791.507426	(t1=0.03105,	nu11=0.05542,	dyn11=Exp)	c
+6	-182738.862673	(t1=3e-05,	nu11=0.05542,	dyn11=Exp)	c
+7	-183145.362086	(t1=2.26e-06,	nu11=4.05673,	dyn11=Sud)	r
+8	-260686.196630	(t1=0.03697,	nu11=16.70418,	dyn11=Exp)	c
+9	-267701.188313	(t1=0.12229,	nu11=1.93296,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000029
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #110.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-1363.338807	(t1=0.04113,	nu11=0.05542,	dyn11=Exp)	m
+5	-181017.502445	(t1=0.01016,	nu11=0.87326,	dyn11=Exp)	r
+6	-183102.345861	(t1=2.26e-06,	nu11=0.0483,	dyn11=Exp)	c
+7	-183120.585358	(t1=2.78e-07,	nu11=0.0414,	dyn11=Sud)	r
+8	-183143.357131	(t1=2.26e-06,	nu11=4.05673,	dyn11=Exp)	m
+9	-260686.196630	(t1=0.03697,	nu11=16.70418,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000027
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #111.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2340.811527	(t1=0.0316,	nu11=0.05542,	dyn11=Exp)	m
+5	-60401.564830	(t1=0.03999,	nu11=0.09781,	dyn11=Lin)	r
+6	-175343.552365	(t1=0.04113,	nu11=0.87326,	dyn11=Exp)	c
+7	-183105.971490	(t1=4.85e-07,	nu11=0.0414,	dyn11=Sud)	m
+8	-183144.761136	(t1=2.26e-06,	nu11=16.70418,	dyn11=Exp)	c
+9	-738988.134048	(t1=1.31704,	nu11=2.74439,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000024
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #112.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-4041.706722	(t1=0.04516,	nu11=0.05542,	dyn11=Exp)	m
+5	-19591.038526	(t1=0.03697,	nu11=0.09781,	dyn11=Exp)	c
+6	-183090.995331	(t1=6.97e-07,	nu11=0.0414,	dyn11=Sud)	m
+7	-183140.131661	(t1=4.00649,	nu11=0.22527,	dyn11=Sud)	r
+8	-197514.041313	(t1=0.00751,	nu11=11.23212,	dyn11=Exp)	r
+9	-738988.134048	(t1=1.31704,	nu11=2.74439,	dyn11=Sud)	c
+Current mean mutation rate:	 0.000022
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #113.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+5	-96395.121022	(t1=0.00751,	nu11=0.05542,	dyn11=Exp)	c
+6	-131110.393596	(t1=4.00649,	nu11=0.22527,	dyn11=Exp)	c
+7	-183140.180621	(t1=8.43e-13,	nu11=0.59737,	dyn11=Lin)	r
+8	-183140.989086	(t1=5.67e-07,	nu11=4.1759,	dyn11=Exp)	r
+9	-194711.033415	(t1=0.00751,	nu11=5.03969,	dyn11=Exp)	m
+Current mean mutation rate:	 0.000020
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #114.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-17789.938726	(t1=0.05631,	nu11=0.05542,	dyn11=Exp)	m
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+5	-131110.393596	(t1=4.00649,	nu11=0.22527,	dyn11=Exp)	c
+6	-159348.603866	(t1=4.00649,	nu11=0.05542,	dyn11=Exp)	c
+7	-182990.849892	(t1=0.0013,	nu11=0.96337,	dyn11=Sud)	r
+8	-183140.179112	(t1=2.87e-10,	nu11=0.173,	dyn11=Exp)	r
+9	-183140.180621	(t1=8.43e-13,	nu11=0.59737,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000018
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #115.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-32034.386260	(t1=0.06462,	nu11=0.05542,	dyn11=Exp)	m
+4	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+5	-131110.393596	(t1=4.00649,	nu11=0.22527,	dyn11=Exp)	c
+6	-159348.603866	(t1=4.00649,	nu11=0.05542,	dyn11=Exp)	c
+7	-183066.288910	(t1=0.0013,	nu11=0.96337,	dyn11=Lin)	c
+8	-183135.945450	(t1=1.06e-06,	nu11=0.43239,	dyn11=Sud)	r
+9	-183148.354048	(t1=7.63e-06,	nu11=2.55562,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000016
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #116.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-1021.038646	(t1=0.04033,	nu11=0.05542,	dyn11=Exp)	m
+5	-32034.386260	(t1=0.06462,	nu11=0.05542,	dyn11=Exp)	c
+6	-45155.935183	(t1=0.06462,	nu11=0.05017,	dyn11=Exp)	m
+7	-183138.355515	(t1=1.06e-06,	nu11=0.43239,	dyn11=Exp)	c
+8	-183162.295249	(t1=1e-05,	nu11=2.45488,	dyn11=Sud)	r
+9	-183183.699229	(t1=0.00016,	nu11=1.20731,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000015
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #117.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-490.527775	(t1=0.03849,	nu11=0.05542,	dyn11=Exp)	m
+4	-1021.038646	(t1=0.04033,	nu11=0.05542,	dyn11=Exp)	c
+5	-8977.154580	(t1=0.06462,	nu11=0.05542,	dyn11=Lin)	m
+6	-45155.935183	(t1=0.06462,	nu11=0.05017,	dyn11=Exp)	c
+7	-162301.066425	(t1=1.8262,	nu11=0.76201,	dyn11=Sud)	r
+8	-180749.253321	(t1=0.00016,	nu11=0.05542,	dyn11=Exp)	c
+9	-183127.564846	(t1=2.93e-07,	nu11=0.06609,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000013
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #118.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-1972.494139	(t1=0.03849,	nu11=0.05017,	dyn11=Exp)	c
+5	-32034.386260	(t1=0.06462,	nu11=0.05542,	dyn11=Exp)	c
+6	-38055.156378	(t1=0.04033,	nu11=0.05542,	dyn11=Lin)	m
+7	-168567.144776	(t1=0.01495,	nu11=0.53606,	dyn11=Lin)	r
+8	-183136.429572	(t1=2.93e-07,	nu11=0.06609,	dyn11=Exp)	m
+9	-183140.099855	(t1=1.92e-07,	nu11=0.77619,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000012
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #119.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-8977.154580	(t1=0.06462,	nu11=0.05542,	dyn11=Lin)	m
+5	-15295.060751	(t1=0.03697,	nu11=0.03661,	dyn11=Exp)	m
+6	-32034.386260	(t1=0.06462,	nu11=0.05542,	dyn11=Exp)	c
+7	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+8	-183343.205304	(t1=0.0001,	nu11=13.89147,	dyn11=Exp)	r
+9	-192359.754905	(t1=0.00649,	nu11=3.15204,	dyn11=Lin)	r
+Current mean mutation rate:	 0.000011
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #120.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-6069.112843	(t1=0.03697,	nu11=0.01,	dyn11=Lin)	m
+6	-32034.386260	(t1=0.06462,	nu11=0.05542,	dyn11=Exp)	c
+7	-183140.097313	(t1=4.78e-08,	nu11=0.4297,	dyn11=Exp)	r
+8	-183150.425483	(t1=8.12e-06,	nu11=2.6857,	dyn11=Lin)	r
+9	-189527.981898	(t1=0.00649,	nu11=2.0967,	dyn11=Lin)	m
+Current mean mutation rate:	 0.000010
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #121.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-2791.134703	(t1=0.03105,	nu11=0.05542,	dyn11=Exp)	m
+6	-183211.385662	(t1=3e-05,	nu11=6.7868,	dyn11=Sud)	r
+7	-185343.027021	(t1=0.03697,	nu11=0.01479,	dyn11=Exp)	m
+8	-228661.617903	(t1=0.03697,	nu11=2.6857,	dyn11=Lin)	c
+9	-325124.152722	(t1=0.04142,	nu11=0.0384,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000009
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #122.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-5552.691812	(t1=0.04682,	nu11=0.05542,	dyn11=Exp)	m
+6	-185343.027021	(t1=0.03697,	nu11=0.01479,	dyn11=Exp)	c
+7	-193628.983958	(t1=0.00872,	nu11=3.03463,	dyn11=Exp)	r
+8	-252933.159313	(t1=0.03697,	nu11=2.6857,	dyn11=Sud)	m
+9	-528303.399317	(t1=0.34088,	nu11=3.60029,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000008
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #123.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-177559.951485	(t1=0.00796,	nu11=0.64204,	dyn11=Lin)	r
+5	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	m
+6	-183140.161294	(t1=3.46e-09,	nu11=0.35278,	dyn11=Sud)	r
+7	-238107.004626	(t1=0.04682,	nu11=3.03463,	dyn11=Exp)	c
+8	-252933.159313	(t1=0.03697,	nu11=2.6857,	dyn11=Sud)	c
+9	-757189.296610	(t1=0.34088,	nu11=3.60029,	dyn11=Sud)	m
+Current mean mutation rate:	 0.000008
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #124.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-7238.289730	(t1=0.03697,	nu11=0.0766,	dyn11=Exp)	m
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-144063.534734	(t1=0.00796,	nu11=0.35278,	dyn11=Sud)	c
+7	-153610.258884	(t1=0.05635,	nu11=0.81143,	dyn11=Sud)	r
+8	-182372.490289	(t1=0.03697,	nu11=0.05542,	dyn11=Sud)	c
+9	-183133.077480	(t1=2.46e-06,	nu11=0.51361,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000007
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #125.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+7	-61544.535658	(t1=0.03697,	nu11=0.35278,	dyn11=Sud)	c
+8	-182486.342879	(t1=0.00014,	nu11=0.39852,	dyn11=Sud)	r
+9	-183140.180622	(t1=6.53e-14,	nu11=3.34163,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000006
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #126.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-2950.325254	(t1=0.03697,	nu11=0.04632,	dyn11=Exp)	m
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+6	-128211.394197	(t1=0.03697,	nu11=0.35278,	dyn11=Lin)	c
+7	-182862.387806	(t1=0.00014,	nu11=0.39852,	dyn11=Exp)	c
+8	-183264.914039	(t1=9e-05,	nu11=3.2508,	dyn11=Lin)	r
+9	-956378.116812	(t1=2.96562,	nu11=4.61447,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000006
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #127.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+5	-6478.887122	(t1=0.03697,	nu11=0.01037,	dyn11=Lin)	m
+6	-42799.667524	(t1=0.03781,	nu11=0.05542,	dyn11=Lin)	m
+7	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+8	-179562.662457	(t1=0.00223,	nu11=0.39588,	dyn11=Lin)	r
+9	-183096.053414	(t1=0.00045,	nu11=0.93831,	dyn11=Exp)	r
+Current mean mutation rate:	 0.000005
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #128.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-27899.499605	(t1=0.03697,	nu11=0.0322,	dyn11=Lin)	m
+5	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	c
+6	-133007.064338	(t1=0.03569,	nu11=0.42887,	dyn11=Exp)	r
+7	-186702.948196	(t1=0.00355,	nu11=2.12753,	dyn11=Lin)	r
+8	-224395.508604	(t1=0.03697,	nu11=0.01037,	dyn11=Sud)	m
+9	-301592.914571	(t1=0.03697,	nu11=0.01037,	dyn11=Exp)	c
+Current mean mutation rate:	 0.000005
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+Generation #129.
+Current generation of solutions:
+N	Value of fitness function	Solution
+0	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+1	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+2	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+3	-351.503195	(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	c
+4	-6478.887122	(t1=0.03697,	nu11=0.01037,	dyn11=Lin)	m
+5	-27899.499605	(t1=0.03697,	nu11=0.0322,	dyn11=Lin)	c
+6	-40959.519049	(t1=2.2728,	nu11=0.19354,	dyn11=Lin)	r
+7	-44458.692876	(t1=0.03697,	nu11=0.05542,	dyn11=Lin)	m
+8	-224395.508604	(t1=0.03697,	nu11=0.01037,	dyn11=Sud)	c
+9	-325793.383406	(t1=0.05948,	nu11=4.35948,	dyn11=Sud)	r
+Current mean mutation rate:	 0.000004
+Current mean number of params to change during mutation:	  1
+
+--Best solution by value of fitness function--
+Value of fitness: -351.50319466134533
+Solution:		(t1=0.03697,	nu11=0.05542,	dyn11=Exp)	m
+
+Mean time:	0.031 sec.
+
+
+
+--Finish global optimization Genetic_algorithm--
+Result:
+   status: 0
+ success: True
+ message: CONVERGENCE: NO IMPROVEMENT DURING 100 ITERATIONS
+       x: [0.03697074640686849 0.0554205787203555 'Exp']	m
+       y: -351.50319466134533
+  n_eval: 834
+  n_iter: 129
+
+--Start local optimization optimize_log--
+0	-351.50319466134533	(t1=0.03697,	nu11=0.05542)	
+1	-351.50319466134533	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785556161776	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114729546	(t1=0.03697,	nu11=0.05548)	
+2	-352.291014555376	(t1=0.03687,	nu11=0.05542)	
+2	-400.28649278823286	(t1=0.03787,	nu11=0.05542)	
+2	-352.6716191293672	(t1=0.03687,	nu11=0.05548)	
+2	-351.5514199095778	(t1=0.03695,	nu11=0.05542)	
+2	-409.7681333050132	(t1=0.03795,	nu11=0.05542)	
+2	-351.5721639841795	(t1=0.03695,	nu11=0.05548)	
+2	-351.50892006093636	(t1=0.03697,	nu11=0.05542)	
+2	-411.68390474980697	(t1=0.03797,	nu11=0.05542)	
+2	-351.46051854407415	(t1=0.03697,	nu11=0.05548)	
+2	-351.50420054188	(t1=0.03697,	nu11=0.05542)	
+2	-412.0767330303788	(t1=0.03797,	nu11=0.05542)	
+2	-351.44175390712917	(t1=0.03697,	nu11=0.05548)	
+2	-351.5033945599571	(t1=0.03697,	nu11=0.05542)	
+2	-412.15758195566013	(t1=0.03797,	nu11=0.05542)	
+2	-351.43806278472766	(t1=0.03697,	nu11=0.05548)	
+2	-351.5032355347648	(t1=0.03697,	nu11=0.05542)	
+2	-412.1742348289117	(t1=0.03797,	nu11=0.05542)	
+2	-351.4373097186908	(t1=0.03697,	nu11=0.05548)	
+2	-351.5032030688599	(t1=0.03697,	nu11=0.05542)	
+2	-412.1776654664427	(t1=0.03797,	nu11=0.05542)	
+2	-351.43715488770977	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319639220834	(t1=0.03697,	nu11=0.05542)	
+2	-412.17837223643437	(t1=0.03797,	nu11=0.05542)	
+2	-351.43712299875915	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319501617923	(t1=0.03697,	nu11=0.05542)	
+2	-412.17851783987135	(t1=0.03797,	nu11=0.05542)	
+2	-351.437116434332	(t1=0.03697,	nu11=0.05548)	
+2	-351.5031947293319	(t1=0.03697,	nu11=0.05542)	
+2	-412.17854783823714	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711508251727	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319467578083	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785540129058	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711480591446	(t1=0.03697,	nu11=0.05548)	
+2	-351.5031946641393	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785552883521	(t1=0.03797,	nu11=0.05542)	
+2	-351.4371147439815	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555191636	(t1=0.03797,	nu11=0.05542)	
+2	-351.4371147332713	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319466134533	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855538148433	(t1=0.03797,	nu11=0.05542)	
+2	-351.4371147407219	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465994835	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555155948	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473885924	(t1=0.03697,	nu11=0.05548)	
+2	-351.5031946580857	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555453971	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473513395	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194659017	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855554586276	(t1=0.03797,	nu11=0.05542)	
+2	-351.4371147346683	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465855137	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555471033	(t1=0.03797,	nu11=0.05542)	
+2	-351.4371147332713	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319466087967	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555505194	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473234	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555500537	(t1=0.03797,	nu11=0.05542)	
+2	-351.4371147300117	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.5031946580857	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555500537	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473140866	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-351.503194661811	(t1=0.03697,	nu11=0.05542)	
+2	-412.17855555098504	(t1=0.03797,	nu11=0.05542)	
+2	-351.43711473280564	(t1=0.03697,	nu11=0.05548)	
+2	-351.50319465762004	(t1=0.03697,	nu11=0.05542)	
+2	-412.1785555491224	(t1=0.03797,	nu11=0.05542)	
+2	-351.437114730943	(t1=0.03697,	nu11=0.05548)	
+2	-116259.75903664343	(t1=0.00541,	nu11=0.05542)	
+2	-40707.05863491632	(t1=0.01603,	nu11=0.05542)	
+2	-8614.950363646727	(t1=0.0265,	nu11=0.05542)	
+2	-2238.7635227870196	(t1=0.03173,	nu11=0.05542)	
+2	-804.3709810874425	(t1=0.03435,	nu11=0.05542)	
+2	-359.19450469175354	(t1=0.03663,	nu11=0.05542)	
+2	-352.5220772959292	(t1=0.03685,	nu11=0.05542)	
+2	-351.50319466134533	(t1=0.03697,	nu11=0.05542)	
+--Finish local optimization optimize_log--
+Result:
+   status: 0
+ success: True
+ message: GLOBAL OPTIMIZATION: CONVERGENCE: NO IMPROVEMENT DURING 100 ITERATIONS; LOCAL OPTIMIZATION: 
+       x: [0.03697074640686849 0.05547602701860429 'Exp']
+       y: -351.437114729546
+  n_eval: 913
+  n_iter: 130
+
