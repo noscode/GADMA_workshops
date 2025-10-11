@@ -2,10 +2,8 @@ Materials for GADMA Workshops
 =============================
 
 .. toctree::
-    :caption: Demographic Inference Workshop (18-19 Nov 2024)
-    :hidden:
-    :titlesonly:
-    :maxdepth: 2
+   :maxdepth: 1
+   :caption: Workshop Resources
 
     Demographic Inference Workshop (18-19 Nov 2024) <2024_18_11/index.rst>
     

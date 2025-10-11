@@ -3,8 +3,6 @@ Materials for  Demographic Inference Workshop (18-19 Nov 2024)
 
 .. toctree::
     :caption: Demographic Inference Workshop (18-19 Nov 2024)
-    :hidden:
-    :titlesonly:
     :maxdepth: 2
 
     Workshop Website <https://gadmaworkshop.github.io/future_workshops/2024-11-18-19/>
