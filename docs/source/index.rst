@@ -6,6 +6,6 @@ Materials for GADMA Workshops
    :hidden:
    :caption: Workshop Resources
 
-    Demographic Inference Workshop (18-19 Nov 2024) <2024_18_11/index.rst>
+   2024_18_11/index
     
 Welcome to the resource page for GADMA workshops! Here, you’ll find materials, guides, and tools to support your learning and use of GADMA for demographic inference.
