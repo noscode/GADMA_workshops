@@ -4,6 +4,8 @@ Materials for GADMA Workshops
 .. toctree::
    :maxdepth: 1
    :hidden:
+   Workshop 16-17 Oct 2025 <2025_10_16/index>
+
    :caption: Past Workshops
 
    Workshop 18-19 Nov 2024 <2024_18_11/index>
