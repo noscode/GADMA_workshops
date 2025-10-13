@@ -12,7 +12,8 @@ GADMA is available for Linux system.
 ```
 
 ```{tab} Windows
-GADMA is available for Windows system.
+GADMA is available for Windows, but we recommend using the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) (WSL) for the best experience.
+If you are using WSL, please follow the instructions for Linux.
 ```
 
 ```{tab} MacOS
