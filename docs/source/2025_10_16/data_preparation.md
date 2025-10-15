@@ -118,7 +118,7 @@ Make sure your conda environment is activated before running `bcftools`.
    ```
    Get the total number `N` of unique variants in current file (it should be >0):
    ```bash
-   awk '(length($4) > 1 || length($5) > 1) {print $1 "\t" $2}' decomposed.vcf | sort | uniq | wc -l
+   awk '{print $1 "\t" $2}' decomposed.vcf | sort | uniq | wc -l
    ```
    If `M=0` you can skip the next step.
    ````
@@ -133,7 +133,7 @@ Make sure your conda environment is activated before running `bcftools`.
    ```
    Get the total number `N` of unique variants in current file (it should be >0):
    ```bash
-   bcftools view -H your.vcf.gz | awk '(length($4) > 1 || length($5) > 1) {print $1 "\t" $2}' | sort | uniq | wc -l
+   bcftools view -H decomposed.vcf.gz | awk '{print $1 "\t" $2}' | sort | uniq | wc -l
    ```
    If `M=0` you can skip the next step.
    ````
