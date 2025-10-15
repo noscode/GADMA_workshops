@@ -1,8 +1,8 @@
-Input data: ../3_easySFS_tutorial/outputs/easySFS_output/dadi/NN-14.sfs
+Input data: outputs/easySFS_output/dadi/NN-10.sfs
 Output directory: outputs/gadma_outputs/gadma_output_2epochs_wide_bounds
 
 Mutation rate: 1.554e-8
-Sequence length: 10000000
+Sequence length: 118000000
 
 Engine: moments
 

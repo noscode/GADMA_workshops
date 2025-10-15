@@ -3,8 +3,8 @@ generation_time: 1.0
 demes:
 - name: ancestral
   epochs:
-  - {end_time: 36250.65212883209, start_size: 338706.589751225}
+  - {end_time: 60053.293880998586, start_size: 342230.554111581}
 - name: NN
   ancestors: [ancestral]
   epochs:
-  - {end_time: 0.0, start_size: 338706.589751225, end_size: 5755.690809786624, size_function: linear}
+  - {end_time: 0.0, start_size: 342230.554111581, end_size: 17229.571749993138, size_function: linear}

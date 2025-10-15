@@ -11,11 +11,11 @@ def model_func(params, ns, pts):
 	sfs = dadi.Spectrum.from_phi(phi, ns, [xx]*len(ns))
 	return sfs
 
-data = dadi.Spectrum.from_file('/home/enoskova/Workspace/GADMA_workshops/2025-10-GADMA_Worshop/tutorials/3_easySFS_tutorial/outputs/easySFS_output/dadi/NN-14.sfs')
-pts = [20, 30, 40]
+data = dadi.Spectrum.from_file('/Users/noskovae/Workspace/GADMA_workshops/2024-11-Demographic_Inference_Worshop/tutorials/3_GADMA_tutorial/outputs/easySFS_output/dadi/NN-10.sfs')
+pts = [10, 20, 30]
 ns = data.sample_sizes
 
-p0 = [0.027222752432361323, 0.04215457414264917]
+p0 = [0.04886131449227875, 0.07423459674177986]
 lower_bound = [1e-15, 0.01]
 upper_bound = [5.0, 100.0]
 func_ex = dadi.Numerics.make_extrap_log_func(model_func)
@@ -26,9 +26,9 @@ print('Model log likelihood (LL(model, data)): {0}'.format(ll_model))
 theta = dadi.Inference.optimal_sfs_scaling(model, data)
 print('Optimal value of theta: {0}'.format(theta))
 
-Nanc = 338685.5533250913
+Nanc = 341520.3101117789
 mu = 1.554e-08
-L = 10000000
+L = 118000000
 theta0 = 4 * mu * L
 Nanc = int(theta / theta0)
 print('Size of ancestral population: {0}'.format(Nanc))

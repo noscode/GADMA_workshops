@@ -12,13 +12,13 @@
 #    If the process is resumed from another directory and the output 
 #    directory is not specified, GADMA will append '_resumed' to the 
 #    previous output directory.
-Output directory: /home/enoskova/Workspace/GADMA_workshops/2025-10-GADMA_Worshop/tutorials/4_GADMA_tutorial/outputs/gadma_outputs/gadma_output_2epochs
+Output directory: /Users/noskovae/Workspace/GADMA_workshops/2024-11-Demographic_Inference_Worshop/tutorials/3_GADMA_tutorial/outputs/gadma_outputs/gadma_output_2epochs
 
 #!!!
 #    Input data can be in the form of an SFS file (should end with .fs), 
 #    a SNP file in Dadi format (should end with .txt), or a 
 #    VCF file along with a popmap file (sample population map).
-Input data: /home/enoskova/Workspace/GADMA_workshops/2025-10-GADMA_Worshop/tutorials/3_easySFS_tutorial/outputs/easySFS_output/dadi/NN-14.sfs
+Input data: /Users/noskovae/Workspace/GADMA_workshops/2024-11-Demographic_Inference_Worshop/tutorials/3_GADMA_tutorial/outputs/easySFS_output/dadi/NN-10.sfs
 
 #    'Population labels' consist of a sequence of population names 
 #    (these must match the names in the input file).
@@ -41,7 +41,7 @@ Population labels: [NN]
 #    populations, then the full projections will be 80x80x80. We can 
 #    project it by setting the 'Projections' parameter to [20, 20, 20].
 #    Default: from input file
-Projections: [14]
+Projections: [10]
 
 #   To indicate if outgroup information is included in the SFS data,
 #   set the Outgroup option.
@@ -53,7 +53,7 @@ Outgroup: True
 #   This should be used together with the Mutation rate and can be replaced
 #   by the Theta0 setting.
 #   Default: None
-Sequence length: 10000000
+Sequence length: 118000000
 
 #!!!
 #    Are the SNPs linked or unlinked?
@@ -83,7 +83,7 @@ Engine: moments
 #    used in Dadi's code.
 #    Default: Let n = max number of individuals in one population, 
 #    then pts = n, n+10, n+20
-Pts: [20, 30, 40]
+Pts: [10, 20, 30]
 
 #!!!
 #    Print parameters of the model in units of N_ref = N_A.
@@ -217,11 +217,6 @@ Split fractions: False
 #   Can be used only with the Dadi engine.
 #   Default: False
 Inbreeding: False
-
-#   Estimate the average ancestral misidentification error.
-#   Assume that ancestral state is identified incorrectly with
-#   a probability of p_misid that is inferred from the data.
-Ancestral state misid error: False
 
 #   If False, then a multinomial approach is used in Dadi and moments.
 #   In the multinomial approach, the ancestral size is inferred implicitly.
