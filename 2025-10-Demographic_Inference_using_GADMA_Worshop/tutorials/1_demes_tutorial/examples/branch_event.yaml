@@ -1,0 +1,13 @@
+time_units: generations
+demes:
+  - name: Population1
+    epochs:
+      - end_time: 2000
+        start_size: 10000
+      - start_size: 8000
+  - name: Population2
+    ancestors:
+      - Population1
+    start_time: 2000
+    epochs:
+      - start_size: 2000
