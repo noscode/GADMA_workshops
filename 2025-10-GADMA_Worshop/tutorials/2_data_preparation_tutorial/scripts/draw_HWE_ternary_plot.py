@@ -32,8 +32,6 @@ def get_data_for_ternary_plot(vcf_filename, samples, vcf_strip_suffix=False):
                         name_map[name] = match_name
                 sample_names = [name_map[name] for name in all_sample_names if name in name_map]
                 sample_indices = [9 + i for i, name in enumerate(all_sample_names) if name in name_map]
-                if len(sample_indices) != len(samples):
-                    raise Exception("Sample mismatch between VCF and popmap after remapping.")
             if line.startswith("#"):
                 continue
             spl_line = line.strip().split()
@@ -50,7 +48,7 @@ def get_data_for_ternary_plot(vcf_filename, samples, vcf_strip_suffix=False):
             allele_freq = sum((g[0] == "0") + (g[2] == "0") for g in valid_genotypes)
             freq_value = allele_freq / (2 * len(valid_genotypes))
             data.append([freq_value, heteroz_value])
-    return np.array(data)
+    return sample_names, np.array(data)
 
 def xy_inside_triangle(xx, yy):
     corners = np.array([[-1/np.sqrt(3), 0], [0, 1], [1/np.sqrt(3), 0]])
@@ -113,7 +111,7 @@ def hwe_ternary_plot(vcf_file, popmap_file, population_name, output_file=None, d
     if not samples:
         print(f"[ERROR] No samples for population '{population_name}' in {popmap_file}")
         exit(3)
-    data = get_data_for_ternary_plot(vcf_file, samples, double_ids)
+    samples, data = get_data_for_ternary_plot(vcf_file, samples, double_ids)
     if len(data) == 0:
         print("[ERROR] No usable SNP/genotype data for selected population.")
         exit(4)
