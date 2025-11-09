@@ -13,7 +13,7 @@ conda activate gadma_workshop_env
 
 Choose your platform to get recommendations and installation instructions:
 ```{tab} Linux
-On Linux computers, you should be able to install ATLAS witout any difficulties.
+On Linux computers, you should be able to install ATLAS.
 ```
 
 ```{tab} Windows
@@ -35,8 +35,8 @@ conda install bioconda::atlas
 ## Verify Installation
 
 1. To verify installation first run:
-    ```console
-    $ atlas simulate --chrLength 1000
+    ```bash
+    atlas simulate --chrLength 1000
     ```
     You should see the following output:
     ```text
@@ -45,12 +45,12 @@ conda install bioconda::atlas
     
 2. Download example input file [`example_for_atlas.bam`](https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_for_atlas.bam):
 
-    ``` console
-    $ wget https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_for_atlas.bam
+    ``` bash
+    wget https://github.com/noscode/GADMA_workshops/raw/refs/heads/main/docs/source/2024_18_11/files/example_for_atlas.bam
     ```
     And run:
-    ```console
-    $ atlas BAMDiagnostics --bam example_for_atlas.bam
+    ```bash
+    atlas BAMDiagnostics --bam example_for_atlas.bam
     ```
     You should see the following output:
     ```text
@@ -61,12 +61,10 @@ conda install bioconda::atlas
 In order for us to understand how many participants are ready for the workshop, we ask you to send us some results of your run.
 
 * Print **the first three lines** of file `example_for_atlas_mappingQualityHistogram.txt`:
-    ```console
-    $ head -3 example_for_atlas_mappingQualityHistogram.txt
+    ```bash
+    head -3 example_for_atlas_mappingQualityHistogram.txt
     ```
-* Please **send us** these lines via the following form:
-
-<a class="btn btn-outline-primary btn-lg" href="https://forms.office.com/e/c4ayJQsKVE" role="button">Send Your Result</a>
+* Please **send us** these lines via the following form: <a class="btn btn-outline-primary btn-lg" href="https://forms.office.com/e/c4ayJQsKVE" role="button">Send Your Result</a>
 
 
 ## Troubleshooting

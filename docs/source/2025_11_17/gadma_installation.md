@@ -102,11 +102,9 @@ In order for us to understand how many participants are ready for the workshop, 
 
 * Print **the following line** of the file `gadma_output/GADMA.log`:
     ```bash
-    tail -25 gadma_output/GADMA.log | head -1
+    tail -25 gadma_output/GADMA.log | head -1 | xargs
     ```
-* Please **send us** this line via the following form:
-
-<a class="btn btn-outline-primary btn-lg" href=https://forms.office.com/e/pHVbkRydwz" role="button">Send Your Result</a>
+* Please **send us** this line via the following form: <a class="btn btn-outline-primary btn-lg" href="https://forms.office.com/e/pHVbkRydwz" role="button">Send Your Result</a>
 
 
 ## Troubleshooting
