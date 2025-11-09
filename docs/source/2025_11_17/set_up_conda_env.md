@@ -48,7 +48,7 @@ To install Jupyter Notebook:
 conda install notebook
 ```
 
-Once installation finishes, navigate to the folder where you have saved the notebooks I will provide during the workshop. Then start Jupyter Notebook with:
+Once installation finishes, navigate to the folder where you have saved the notebooks we will provide during the workshop. Then start Jupyter Notebook with:
 ```bash
 jupyter notebook
 ```
