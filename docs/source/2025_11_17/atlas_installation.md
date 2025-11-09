@@ -3,6 +3,12 @@
 During the workshop you will learn how to use ATLAS to prepare your sequencing data for demographic inference.
 We kindly ask you to install ATLAS on your system using the instructions below.
 
+## Activate Conda Environment
+
+```bash
+conda activate gadma_workshop_env
+```
+
 ## Platform
 
 Choose your platform to get recommendations and installation instructions:
@@ -18,61 +24,12 @@ On Windows computers, use the [Windows Subsystem for Linux](https://docs.microso
 On Linux computers, you should be able to install ATLAS.
 ```
 
-## Dependencies
-
-We will start with installation of ATLAS dependencies:
-
-````{tab} Linux
-* Check that `gcc` compiler of **version 9 or higher** is installed:
-    ```console
-    $ gcc --version
-    ```
-    If not, please install `gcc`:
-    ```console
-    $ sudo apt install gcc
-    ```
-* Check that `cmake` of **version 3.14 or higher** is installed:
-    ```console
-    $ cmake --version
-    ```
-    If not, please install `cmake`:
-    ```console
-    $ sudo apt install cmake
-    ```
-````
-
-````{tab} MacOS
-* Check that `clang` compiler is installed:
-    ```console
-    $ clang --version
-    ```
-* Install `samtools`, `cmake`, `autoconf` and `automake`:
-    ```console
-    $ brew install samtools cmake autoconf automake
-    ```
-````
-
 
 ## Installation
 
-Download ATLAS repository:
-
-```console
-$ git clone --depth 1 https://bitbucket.org/WegmannLab/atlas.git
-```
-
-And run compilation:
-```console
-$ cd atlas
-$ mkdir -p build
-$ cd build
-$ cmake ..
-$ make
-```
-
-You can add the path to atlas as an alias in your `.bashrc` file as follows to avoid having to indicate the path to atlas/build all the time:
+Install ATLAS using `conda`:
 ```bash
-alias atlas='/path/to/atlas/build/atlas'
+conda install bioconda::atlas
 ```
 
 ## Verify Installation
@@ -114,37 +71,15 @@ In order for us to understand how many participants are ready for the workshop, 
 
 ## Troubleshooting
 
-If you have any problems with installation:
+If you encounter the following error about `libgfortran.so.3`:
+```text
+atlas: error while loading shared libraries: libgfortran.so.3: cannot open shared object file: No such file or directory
+```
+You may need to install an older version of `libgfortran`:
+```bash
+conda install conda-forge/label/cf201901::libgfortran
+```
 
-````{tab} Linux
-* You can install ATLAS using `conda`
-    ```console
-    $ conda env create -f conda.yml
-    $ conda activate atlas 
-    $ mkdir build; cd build
-    ```
-    As `cmake` and `conda` do not play together nicely, you need to tell cmake where conda puts its binnaries and libraries:
-    ```console
-    $ cmake .. -GNinja -DCONDA=ON -DCMAKE_C_COMPILER=$(which gcc) -DCMAKE_CXX_COMPILER=$(which g++) -DCMAKE_LIBRARY_PATH=$CONDA_PREFIX/lib -DCMAKE_INCLUDE_PATH=$CONDA_PREFIX/include
-    $ ninja
-    ```
+If you have any other problems with installation:
 * Take a look at the official [installation documentation](https://atlaswiki.netlify.app/getting_started#installation-via-git)
 * If you still face issues, please write to [ekaterina.e.noskova@gmail.com](mailto:ekaterina.e.noskova@gmail.com).
-````
-
-````{tab} MacOS
-* Try using `gcc` compiler instead of `clang` for compilation.
-* You can install ATLAS using `conda`
-    ```console
-    $ conda env create -f conda.yml
-    $ conda activate atlas 
-    $ mkdir build; cd build
-    ```
-    As `cmake` and `conda` do not play together nicely, you need to tell cmake where conda puts its binnaries and libraries:
-    ```console
-    $ cmake .. -GNinja -DCONDA=ON -DCMAKE_C_COMPILER=$(which gcc) -DCMAKE_CXX_COMPILER=$(which g++) -DCMAKE_LIBRARY_PATH=$CONDA_PREFIX/lib -DCMAKE_INCLUDE_PATH=$CONDA_PREFIX/include
-    $ ninja
-    ```
-* Take a look at the official [installation documentation](https://atlaswiki.netlify.app/getting_started#installation-via-git)
-* If you still face issues, please write to [ekaterina.e.noskova@gmail.com](mailto:ekaterina.e.noskova@gmail.com).
-````
