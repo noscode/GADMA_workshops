@@ -40,7 +40,7 @@ During the workshop, we will be demonstrating several Jupyter Notebooks.
 
 However, if you’d like to **run the notebooks on your own laptop** after the workshop or experiment with them interactively, you will need to install Jupyter Notebook.
 
-Jupyter Notebook is an application that lets you create and share interactive documents, which can include live code, plots, images, and explanations—all in one place.
+**What is Jupyter Notebook?** Jupyter Notebook is an application that lets you create and share interactive documents, which can include live code, plots, images, and explanations—all in one place.
 When you launch Jupyter Notebook, it opens in your web browser and acts as an interactive workspace for programming, exploring data, and visualizing results. Learn more: [here](https://jupyter-notebook.readthedocs.io/en/latest/).
 
 To install Jupyter Notebook:
@@ -48,8 +48,8 @@ To install Jupyter Notebook:
 conda install notebook
 ```
 
-Once installation finishes, start Jupyter Notebook with:
+Once installation finishes, navigate to the folder where you have saved the notebooks I will provide during the workshop. Then start Jupyter Notebook with:
 ```bash
 jupyter notebook
 ```
-This will open the Jupyter interface in your default web browser.
+This will open the Jupyter interface in your default web browser, showing all notebooks in your current folder.
