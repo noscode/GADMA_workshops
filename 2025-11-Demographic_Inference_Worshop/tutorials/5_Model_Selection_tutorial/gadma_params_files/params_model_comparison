@@ -1,0 +1,19 @@
+Input data: ../4_GADMA_tutorial/outputs/easySFS_output/dadi/NN-10.sfs
+Output directory: outputs/gadma_outputs/gadma_model_comparison
+
+# We want compare final demographic histories with different
+# numbers of epochs using CLAIC
+Linked SNP's : True
+Directory with bootstrap: ../4_GADMA_tutorial/data/boots
+
+Mutation rate: 1.554e-8
+Sequence length: 118000000
+Time for generation: 7
+
+Engine: moments
+
+Initial structure: 1
+Final structure: 3
+
+Number of repeats: 8
+Number of processes: 4
