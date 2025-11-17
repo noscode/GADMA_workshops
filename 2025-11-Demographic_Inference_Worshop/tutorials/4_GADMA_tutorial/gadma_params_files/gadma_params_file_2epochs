@@ -1,0 +1,13 @@
+Input data: outputs/easySFS_output/dadi/NN-10.sfs
+Output directory: outputs/gadma_outputs/gadma_output_2epochs
+
+Mutation rate: 1.554e-8
+Sequence length: 118000000
+
+Engine: moments
+
+Initial structure: 1
+Final structure: 2
+
+Number of repeats: 8
+Number of processes: 4

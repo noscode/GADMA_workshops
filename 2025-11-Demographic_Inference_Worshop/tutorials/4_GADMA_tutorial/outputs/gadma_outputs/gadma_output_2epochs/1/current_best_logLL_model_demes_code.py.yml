@@ -1,0 +1,10 @@
+time_units: generations
+generation_time: 1.0
+demes:
+- name: ancestral
+  epochs:
+  - {end_time: 11661.249274025702, start_size: 340712.4468131554}
+- name: NN
+  ancestors: [ancestral]
+  epochs:
+  - {end_time: 0.0, start_size: 29313.317071563044}

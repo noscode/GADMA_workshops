@@ -1,0 +1,86 @@
+Data reading
+Number of populations: 1
+Projections: [10]
+Population labels: ['NN']
+Outgroup: True
+[92m--Successful data reading (0.00 s)--[0m
+
+[92m--Successful arguments parsing--[0m
+
+[93mUserWarning: Code for momentsLD will not be generated as data was not preprocessed for it (run gadma-precompute_ld_data script on the VCF file first)[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/gadma/cli/settings_storage.py:1510)
+Parameters of launch are saved in output directory: /home/enoskova/Workspace/GADMA_workshops/2025-10-GADMA_Worshop/tutorials/4_GADMA_tutorial/outputs/gadma_outputs/gadma_output_2epochs/params_file
+All output is saved in output directory: /home/enoskova/Workspace/GADMA_workshops/2025-10-GADMA_Worshop/tutorials/4_GADMA_tutorial/outputs/gadma_outputs/gadma_output_2epochs/GADMA.log
+
+[94m--Start pipeline--[0m
+Run launch number 4
+Run launch number 2
+Run launch number 1
+Run launch number 3
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+Finish genetic algorithm number 3
+Run launch number 5
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+Finish genetic algorithm number 4
+Run launch number 6
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+Finish genetic algorithm number 1
+Run launch number 7
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+Finish genetic algorithm number 5
+Run launch number 8
+[93mRuntimeWarning: Mean of empty slice.[0m (/home/enoskova/miniconda3/envs/gadma_workshop_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504)
+Finish genetic algorithm number 6
+Finish genetic algorithm number 2
+Finish genetic algorithm number 7
+
+[000:01:00]
+All best by log-likelihood models
+Number	log-likelihood	Model	Units
+Run 3	-320.02	 [Nanc = 340672] [ [ 12225.714(t1), [30579.667(nu11)], [Sud(dyn11)] ] ]	f	(theta =  2498793.60)	physical, time in generations
+Run 5	-321.31	 [Nanc = 341603] [ [ 33444.761(t1), [25380.054(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2505622.25)	physical, time in generations
+Run 6	-325.93	 [Nanc = 340983] [ [ 30024.242(t1), [22755.591(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2501074.77)	physical, time in generations
+Run 1	-326.04	 [Nanc = 340712] [ [ 11661.249(t1), [29313.317(nu11)], [Sud(dyn11)] ] ]	f	(theta =  2499084.91)	physical, time in generations
+Run 2	-336.17	 [Nanc = 341591] [ [ 56781.863(t1), [15479.581(nu11)], [Lin(dyn11)] ] ]	f	(theta =  2505533.62)	physical, time in generations
+Run 8	-338.30	 [Nanc = 341422] [ [ 54354.884(t1), [14032.419(nu11)], [Lin(dyn11)] ] ]	m	(theta =  2504290.33)	physical, time in generations
+Run 4	-338.48	 [Nanc = 342030] [ [ 38833.23(t1), [29624.22(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2508755.23)	physical, time in generations
+Run 7	-407.33	 [Nanc = 343436] [ [ 47030.087(t1), [35502.586(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2519065.66)	physical, time in generations
+
+You can find the picture and the Python code of the best model in the output directory.
+
+Finish genetic algorithm number 8
+
+[000:01:15]
+All best by log-likelihood models
+Number	log-likelihood	Model	Units
+Run 3	-320.02	 [Nanc = 340672] [ [ 12225.714(t1), [30579.667(nu11)], [Sud(dyn11)] ] ]	f	(theta =  2498793.60)	physical, time in generations
+Run 5	-321.31	 [Nanc = 341603] [ [ 33444.761(t1), [25380.054(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2505622.25)	physical, time in generations
+Run 6	-325.93	 [Nanc = 340983] [ [ 30024.242(t1), [22755.591(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2501074.77)	physical, time in generations
+Run 1	-326.04	 [Nanc = 340712] [ [ 11661.249(t1), [29313.317(nu11)], [Sud(dyn11)] ] ]	f	(theta =  2499084.91)	physical, time in generations
+Run 2	-336.17	 [Nanc = 341591] [ [ 56781.863(t1), [15479.581(nu11)], [Lin(dyn11)] ] ]	f	(theta =  2505533.62)	physical, time in generations
+Run 8	-338.30	 [Nanc = 341422] [ [ 54354.884(t1), [14032.419(nu11)], [Lin(dyn11)] ] ]	f	(theta =  2504290.33)	physical, time in generations
+Run 4	-338.48	 [Nanc = 342030] [ [ 38833.23(t1), [29624.22(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2508755.23)	physical, time in generations
+Run 7	-407.33	 [Nanc = 343436] [ [ 47030.087(t1), [35502.586(nu11)], [Exp(dyn11)] ] ]	f	(theta =  2519065.66)	physical, time in generations
+
+You can find the picture and the Python code of the best model in the output directory.
+
+
+--Finish pipeline--
+
+
+If you use GADMA in your research please cite:
+[GADMA]
+Noskova et al., 2020: https://doi.org/10.1093/gigascience/giaa005
+Noskova et al., 2023: https://doi.org/10.1093/gigascience/giad059
+[Engine moments]
+Jouganous et al., 2017: https://doi.org/10.1534/genetics.117.200493
+
+More information about citations: https://gadma.readthedocs.io/en/latest/citations.html
+
+
+Thank you for using GADMA!
+
+In case of any questions or problems, please contact: ekaterina.e.noskova@gmail.com
+
